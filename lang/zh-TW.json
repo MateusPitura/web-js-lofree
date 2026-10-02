@@ -1,0 +1,666 @@
+{
+  "Language": "繁體中文",
+
+  "Welcome": "歡迎使用Control HUB WEB",
+  "SelectDevice": "在這裡您可以設置您的裝備，包括按鍵/sensor/燈光/宏及其它配置",
+  "SupportBrowser": "支持Google Chrome，Microsoft Edge，Opera等瀏覽器訪問",
+  "SupportSystem": "適配 Windows，Mac OS，Linux等主流操作系統",
+  "Connect": "連接設備 +",
+  "OperationTips": "操作提示：點<連接設備+> →選中USB設備 →點<連接> →進入配置介面",
+  "PairButtonTips": "新接收器對碼",
+  "PairTips": "插入要對碼的接收器 →敲擊鍵盤空格鍵 →在彈窗中選中要對碼的接收器 →連接 →開始對碼",
+  "Version": "版本:",
+  "linkText":"點擊連接設備",
+
+  "ReportRates": [
+    {
+      "value": 8,
+      "rate": 125,
+      "option": "125Hz"
+    },
+    {
+      "value": 4,
+      "rate": 250,
+      "option": "250Hz"
+    },
+    {
+      "value": 2,
+      "rate": 500,
+      "option": "500Hz"
+    },
+    {
+      "value": 1,
+      "rate": 1000,
+      "option": "1000Hz"
+    },
+    {
+      "value": 16,
+      "rate": 2000,
+      "option": "2000Hz"
+    },
+    {
+      "value": 32,
+      "rate": 4000,
+      "option": "4000Hz"
+    },
+    {
+      "value": 64,
+      "rate": 8000,
+      "option": "8000Hz"
+    }
+  ],
+  "Brightness": "亮度",
+  "Speed": "速度",
+
+  "MacroList": "宏清單",
+  "KeyList": "按鍵列表",
+  "StartRecord": "開始錄製",
+  "StopRecord": "停止錄製",
+  "AutoDelay": "自動插入延時",
+  "DefaultDelay": "預設延時",
+  "UntilThisReleased": "循環直到此按鍵鬆開",
+  "UntilAnyPressed": "循環直到任意鍵按下",
+  "UntilThisPressed": "循環直到此按鍵再次按下",
+  "CycleTimes": "循環次數",
+  "InsertEvent": "插入事件",
+  "InsertEventOptions": [
+    {
+      "command": 0,
+      "option": "按鍵按下"
+    },
+    {
+      "command": 1,
+      "option": "按鍵釋放"
+    },
+    {
+      "command": 2,
+      "value": "0x040001",
+      "option": "左鍵"
+    },
+    {
+      "command": 3,
+      "value": "0x040002",
+      "option": "右鍵"
+    },
+    {
+      "command": 4,
+      "value": "0x040004",
+      "option": "中鍵"
+    },
+    {
+      "command": 5,
+      "value": "0x040010",
+      "option": "前進鍵"
+    },
+    {
+      "command": 6,
+      "value": "0x040008",
+      "option": "後退鍵"
+    }
+  ],
+  "Save": "保存",
+
+  "LightOffTimeOptions": [
+    {
+      "value": 1,
+      "option": "10秒"
+    },
+    {
+      "value": 3,
+      "option": "30秒"
+    },
+    {
+      "value": 6,
+      "option": "1分鐘"
+    },
+    {
+      "value": 12,
+      "option": "2分鐘"
+    },
+    {
+      "value": 30,
+      "option": "5分鐘"
+    },
+    {
+      "value": 60,
+      "option": "10分鐘"
+    },
+    {
+      "value": 90,
+      "option": "15分鐘"
+    }
+  ],
+  "CustomColor": "自定義顏色",
+  "Preview": "預覽",
+  "Preset": "預設",
+
+  "SelectLanguage": "選擇語言",
+  "DeviceInfo": "設備信息",
+  "StartPair": "開始對碼",
+  "Pairing": "正在對碼",
+  "PairSuccess": "對碼成功",
+  "PairFail": "對碼失敗",
+  "LongDistanceTips": "（遠距離模式下，距離會更遠，抗干擾能力更強，相應工作電流會加大，使用時間減少）",
+
+  "Upgrade": "固件更新",
+  "UpgradeTips": "發現新固件，請前往設置界面更新或者點擊該消息前往界面！",
+
+  "Cancel": "取消",
+  "OK": "確定",
+  "DialogDeviceUnsupport": "暫不支持該設備",
+  "DialogUpdating": "請稍等，正在更新設定",
+  "DialogOffline": "無線設備處於離線狀態，請先喚醒設備或打開電源",
+
+  "DialogExportName": "請輸入文件名稱",
+  "DialogImporting":"正在切換配置中，請稍後",
+  "DialogSelectMacroFirst": "請先選擇一個宏",
+  "DialogMaxMacroKey": "宏按鍵個數已達上限",
+  "DialogStopRecordFirst": "請先停止宏錄製",
+  "DialogSaveMacroFirst": "請先保存宏",
+  "DialogShortcutKeyTips": "請輸入單鍵",
+  "DialogUpgradeTips": "溫馨提示: \n 1.在升級過程中，請勿移除設備或關閉新網頁，否則會導致升級失敗，設備無法正常使用。\n 2.固件升級完成後，需要對接收器重新配對操作，否則設備將無法正常使用。\n 3.滑鼠需在有線模式下完成升級。",
+  "DialogUpgradeOperation": "請按照以下步驟操作，進行固件升級:\n1.按下鍵盤回車（Enter）鍵，瀏覽器左上角會彈出彈框。\n2.按下鍵盤“TAB”、“上方向鍵”，選擇設備。\n3.選擇設備後，再次按下回車（Enter）鍵進行固件升級。",
+  "DialogUpgradeUpgrading": "設備正在進行升級 \n請注意：升級過程中，請勿插拔設備，以免造成升級失敗",
+  "DialogUpgradeRead": "我已閱讀",
+  "DialogUpgradeStart": "開始升級",
+  "DialogUpgradeSuccess": "升級成功",
+  "DialogUpgradeSuccessTips": "設備完成升級\n",
+  "DialogUpgradeFail": "升級失敗",
+  "DialogUpgradeFirst": "有設備升級失敗，請先繼續升級，否則設備可能無法使用",
+
+  "keyboard": {
+    "NewConfiguration": "新建配置檔",
+    "RestoreDefault": "恢復預設",
+    "isRestoreDefault": "是否需要恢復預設？",
+    "SelectButton": "請先選擇按鍵",
+    "seleConfigTips": "是否需要切換配置？",
+    "deleteConfigTips": "是否刪除當前配置？",
+    "sameTips": "以有一個同名配置項！",
+    "default": "預設：",
+    "current": "目前：",
+    "macroHead": "宏名稱",
+    "action": "動作",
+    "FunctionList": [
+      {
+        "option": "基本按鍵",
+        "value": 1
+      },
+      {
+        "option": "多媒體",
+        "value": 2
+      },
+      {
+        "option": "宏使用",
+        "value": 3
+      },
+      {
+        "option": "禁用",
+        "value": 4
+      }
+    ],
+    "keyboardKeyfunctions": [
+      {
+        "type": "0x00",
+        "value": "0x00",
+        "label": "禁用"
+      },
+      {
+        "type": "0x03",
+        "children": [
+          {
+            "value": "0x0183",
+            "label": "播放機"
+          },
+          {
+            "value": "0x00CD",
+            "label": "播放/暫停"
+          },
+          {
+            "value": "0x00B5",
+            "label": "下一曲"
+          },
+          {
+            "value": "0x00B6",
+            "label": "上一曲"
+          },
+          {
+            "value": "0x00B7",
+            "label": "停止播放"
+          },
+          {
+            "value": "0x00E2",
+            "label": "靜音"
+          },
+          {
+            "value": "0x00E9",
+            "label": "音量加"
+          },
+          {
+            "value": "0x00EA",
+            "label": "音量減"
+          },
+          {
+            "value": "0x018A",
+            "label": "郵件"
+          },
+          {
+            "value": "0x0192",
+            "label": "計算機"
+          },
+          {
+            "value": "0x0194",
+            "label": "我的電腦"
+          },
+          {
+            "value": "0x0223",
+            "label": "主頁"
+          },
+          {
+            "value": "0x0221",
+            "label": "搜索"
+          },
+          {
+            "value": "0x0225",
+            "label": "網頁前進"
+          },
+          {
+            "value": "0x0224",
+            "label": "網頁後退"
+          },
+          {
+            "value": "0x0226",
+            "label": "停止網頁"
+          },
+          {
+            "value": "0x0227",
+            "label": "刷新"
+          },
+          {
+            "value": "0x022A",
+            "label": "我的最愛"
+          },
+          {
+            "value": "0x0070",
+            "label": "亮度-"
+          },
+          {
+            "value": "0x006F",
+            "label": "亮度+"
+          }
+        ]
+      },
+      {
+        "type": "0x05",
+        "children": [
+          {
+            "value": "0x0017",
+            "label": "恢复出厂设置"
+          },
+          {
+            "value": "0x0000",
+            "label": "蓝牙设备1"
+          },
+          {
+            "value": "0x0001",
+            "label": "蓝牙设备2"
+          },
+          {
+            "value": "0x0002",
+            "label": "蓝牙设备3"
+          },
+          {
+            "value": "0x0003",
+            "label": "2.4G通道"
+          },
+          {
+            "value": "0x0004",
+            "label": "灯光模式循环加"
+          },
+          {
+            "value": "0x0005",
+            "label": "灯光模式加"
+          },
+          {
+            "value": "0x0006",
+            "label": "灯光模式减"
+          },
+          {
+            "value": "0x0007",
+            "label": "灯光颜色循环"
+          },
+          {
+            "value": "0x0008",
+            "label": "灯光颜色加"
+          },
+          {
+            "value": "0x0009",
+            "label": "灯光颜色减"
+          },
+          {
+            "value": "0x000A",
+            "label": ""
+          },
+          {
+            "value": "0x000B",
+            "label": "灯光速度循环"
+          },
+          {
+            "value": "0x000C",
+            "label": "灯光速度加"
+          },
+          {
+            "value": "0x000D",
+            "label": "灯光速度减"
+          },
+          {
+            "value": "0x000E",
+            "label": "灯光亮度循环"
+          },
+          {
+            "value": "0x000F",
+            "label": "灯光亮度加"
+          },
+          {
+            "value": "0x0010",
+            "label": "灯光亮度减"
+          },
+          {
+            "value": "0x0011",
+            "label": "查看电量"
+          },
+          {
+            "value": "0x0012",
+            "label": "灯光开关"
+          },
+          {
+            "value": "0x0013",
+            "label": "FN Lock"
+          },
+          {
+            "value": "0x0014",
+            "label": "蓝牙通道"
+          },
+          {
+            "value": "0x0015",
+            "label": "有线通道"
+          },
+          {
+            "value": "0x0016",
+            "label": "清除蓝牙记录"
+          },
+          {
+            "value": "0x0017",
+            "label": "恢复初始化设置"
+          },
+          {
+            "value": "0x0018",
+            "label": "windows系统"
+          },
+          {
+            "value": "0x0019",
+            "label": "mac系统"
+          },
+          {
+            "value": "0x001A",
+            "label": "android系统"
+          },
+          {
+            "value": "0x001B",
+            "label": "iOS系统"
+          },
+          {
+            "value": "0x001C",
+            "label": "禁用ALT+TAB键"
+          },
+          {
+            "value": "0x001D",
+            "label": "禁用ALT+FN键"
+          },
+          {
+            "value": "0x001E",
+            "label": "禁用SHIFT+TAB键"
+          },
+          {
+            "value": "0x001F",
+            "label": "禁用WIN键"
+          },
+          {
+            "value": "0x0020",
+            "label": "矩阵其他常亮灯"
+          },
+          {
+            "value": "0x0021",
+            "label": "禁用WIN+APP键"
+          },
+          {
+            "value": "0x0022",
+            "label": "全键盘锁键"
+          },
+          {
+            "value": "0x0023",
+            "label": "Win系统的Copilot键"
+          },
+          {
+            "value": "0x0024",
+            "label": "灯带模式开关"
+          },
+          {
+            "value": "0x0025",
+            "label": "灯带模式循环"
+          },
+          {
+            "value": "0x0026",
+            "label": "灯带模式加"
+          },
+          {
+            "value": "0x0027",
+            "label": "灯带模式减"
+          },
+          {
+            "value": "0x0028",
+            "label": "灯带亮度循环"
+          },
+          {
+            "value": "0x0029",
+            "label": "灯带亮度加"
+          },
+          {
+            "value": "0x002A",
+            "label": "灯带亮度减"
+          },
+          {
+            "value": "0x002B",
+            "label": "灯带速度循环"
+          },
+          {
+            "value": "0x002C",
+            "label": "灯带速度加"
+          },
+          {
+            "value": "0x002D",
+            "label": "灯带速度减"
+          },
+          {
+            "value": "0x002E",
+            "label": "灯带亮度循环"
+          },
+          {
+            "value": "0x002F",
+            "label": "禁用WIN键"
+          },
+          {
+            "value": "0x0030",
+            "label": "灯带亮度减"
+          },
+          {
+            "value": "0x0031",
+            "label": "灯效模式循环减"
+          }
+        ]
+      },
+      {
+        "type": "0x06",
+        "children": [
+          {
+            "value": "0x01",
+            "label": "FN"
+          },
+          {
+            "value": "0x02",
+            "label": "MacFn"
+          },
+          {
+            "value": "0x03",
+            "label": "FN2"
+          }
+        ]
+      },
+      {
+        "type": "0x09",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "序列鍵1"
+          },
+          {
+            "value": "0x0002",
+            "label": "序列鍵2"
+          },
+          {
+            "value": "0x0003",
+            "label": "序列鍵3"
+          },
+          {
+            "value": "0x0004",
+            "label": "序列鍵4"
+          },
+          {
+            "value": "0x0005",
+            "label": "序列鍵5"
+          },
+          {
+            "value": "0x0006",
+            "label": "序列鍵6"
+          },
+          {
+            "value": "0x0007",
+            "label": "序列鍵7"
+          },
+          {
+            "value": "0x0008",
+            "label": "序列鍵8"
+          },
+          {
+            "value": "0x0009",
+            "label": "序列鍵9"
+          },
+          {
+            "value": "0x000A",
+            "label": "序列鍵10"
+          },
+          {
+            "value": "0x000B",
+            "label": "序列鍵11"
+          },
+          {
+            "value": "0x000C",
+            "label": "序列鍵12"
+          },
+          {
+            "value": "0x000D",
+            "label": "序列鍵13"
+          },
+          {
+            "value": "0x000E",
+            "label": "序列鍵14"
+          },
+          {
+            "value": "0x000F",
+            "label": "序列鍵15"
+          },
+          {
+            "value": "0x0010",
+            "label": "序列鍵16"
+          }
+        ]
+      },
+      {
+        "type": "0x0A",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "左鍵"
+          },
+          {
+            "value": "0x0002",
+            "label": "右键"
+          },
+          {
+            "value": "0x0004",
+            "label": "中鍵"
+          },
+          {
+            "value": "0x0010",
+            "label": "前進鍵"
+          },
+          {
+            "value": "0x0008",
+            "label": "後退鍵"
+          }
+        ]
+      }
+    ],
+    "MacroUse": "宏使用",
+    "DisableList": [
+      {
+        "option": "禁用",
+        "value": 0
+      },
+      {
+        "option": "啟用",
+        "value": 2
+      }
+    ],
+
+    "modeList": [
+      { "option": "燈光模式", "value": 0 },
+      { "option": "音樂律動", "value": 1 }
+    ],
+    "colorMode": "混彩模式",
+
+    "transcribe": "錄製",
+
+    "keyboardFirmwareVersion": "接收器固件版本",
+    "FirmwareVersion": "鍵盤韌體版本",
+    "newTips": "當前是最新版本",
+    "pairHead":"配對工具",
+    "pair":"配對",
+    "rate": "回報率",
+    "SleepTime": "休眠時間",
+    "RestoreDefaultTips": "恢復出廠設置",
+    "keyboardTabList": [
+      {
+        "option": "按鍵",
+        "value": 1
+      },
+      {
+        "option": "燈效",
+        "value": 2
+      },
+      {
+        "option": "宏",
+        "value": 3
+      },
+      {
+        "option": "設置",
+        "value": 4
+      }
+    ],
+    "DialogUpgradeTips": "溫馨提示：\n1.在升級過程中，請勿移除設備或刷新網頁，否則會導致升級失敗，設備無法正常使用。",
+    "DialogUpgradeOperation": "請按照以下步驟操作，進行固件升級：\n1.在陞級過程中，請先拔掉接收器。 \n2.點擊“開始陞級”，瀏覽器左上角彈出彈框。 \n3.選擇<span style='color:red;font-weight:bold'>“未知設備（3554:F808）”</span>，點擊“連接”。 \n4.開始進入陞級介面。",
+    "DialogUpgradeUpgrading": "您好！\n 為優化您的使用體驗，本次升級修復了已知的 BUG，按以下步驟更新版本：\n 1. 升級前，斷開藍牙，拔掉 2.4G 接收器。\n 2. 將鍵盤切換至有線檔位，使用 Type-C 數據線連接電腦端口。\n 3. 點擊「開始升級」，瀏覽器左上角會彈出視窗。\n 4. 選擇<span style='color:red;font-weight:bold;'>「未知裝置 (3554:F808)」</span>進入 BOOT。\n 5. 點擊「連接」開始更新版本。\n 6. 等待進度條達到 100%，即升級成功。\n 注意：確保電腦網絡穩定，切勿插拔裝置，升級時鍵盤無法使用，依提示操作即可，感謝配合。",
+    "upgradeTips":"請退出到主頁，連接有線模式進行更新。\n（注意：必須先拔掉接收器，再進行陞級！）",
+    "DialogPairTips":"請操作鍵盤進入配對狀態（先切至無線擋位，同時按Fn+4組合鍵長按3S，直至信號燈藍燈慢閃），並靠近接收器點擊「開始配對」或按鍵盤的空格鍵。",
+    "pageUpdateTips":"檢測到功能或介面有更新，點擊確定清除緩存並重新加載。"
+  }
+}

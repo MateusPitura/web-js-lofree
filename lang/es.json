@@ -1,0 +1,670 @@
+{
+  "Language": "Español",
+
+  "Welcome": "Bienvenido a Control HUB WEB",
+  "SelectDevice": "Aquí puede configurar su equipo, incluyendo teclas, sensores, luces, macros y otras configuraciones.",
+  "SupportBrowser": "Compatible con navegadores como Google Chrome, Microsoft Edge, Opera, etc.",
+  "SupportSystem": "Compatible con sistemas operativos principales: Windows, Mac OS, Linux, etc.",
+  "Connect": "Conectar dispositivo +",
+  "OperationTips": "Instrucciones: Haga clic en <Conectar dispositivo+> → Seleccione el dispositivo USB → Haga clic en <Conectar> → Acceda a la interfaz de configuración.",
+  "PairButtonTips": "Emparejamiento del nuevo receptor",
+  "PairTips": "Inserte el receptor a emparejar → Presione la barra espaciadora del teclado → Seleccione el receptor en la ventana emergente → Conectar → Comenzar emparejamiento.",
+  "Version": "Versión:",
+  "linkText":"Haga clic para conectar el dispositivo",
+  
+  "ReportRates": [
+    {
+      "value": 8,
+      "rate": 125,
+      "option": "125Hz"
+    },
+    {
+      "value": 4,
+      "rate": 250,
+      "option": "250Hz"
+    },
+    {
+      "value": 2,
+      "rate": 500,
+      "option": "500Hz"
+    },
+    {
+      "value": 1,
+      "rate": 1000,
+      "option": "1000Hz"
+    },
+    {
+      "value": 16,
+      "rate": 2000,
+      "option": "2000Hz"
+    },
+    {
+      "value": 32,
+      "rate": 4000,
+      "option": "4000Hz"
+    },
+    {
+      "value": 64,
+      "rate": 8000,
+      "option": "8000Hz"
+    }
+  ],
+  "Brightness": "Brillo",
+  "Speed": "Velocidad",
+
+  "MacroList": "Lista de macros",
+  "KeyList": "Lista de teclas",
+  "StartRecord": "Comenzar grabación",
+  "StopRecord": "Detener grabación",
+  "AutoDelay": "Insertar retraso automáticamente",
+  "DefaultDelay": "Retraso predeterminado",
+  "UntilThisReleased": "Repetir hasta que se suelte esta tecla",
+  "UntilAnyPressed": "Repetir hasta que se presione cualquier tecla",
+  "UntilThisPressed": "Repetir hasta que esta tecla se presione nuevamente",
+  "CycleTimes": "Número de repeticiones",
+  "InsertEvent": "Insertar evento",
+  "InsertEventOptions": [
+    {
+      "command": 0,
+      "option": "Tecla presionada"
+    },
+    {
+      "command": 1,
+      "option": "Tecla liberada"
+    },
+    {
+      "command": 2,
+      "value": "0x040001",
+      "option": "Botón izquierdo"
+    },
+    {
+      "command": 3,
+      "value": "0x040002",
+      "option": "Botón derecho"
+    },
+    {
+      "command": 4,
+      "value": "0x040004",
+      "option": "Botón central"
+    },
+    {
+      "command": 5,
+      "value": "0x040010",
+      "option": "Botón adelante"
+    },
+    {
+      "command": 6,
+      "value": "0x040008",
+      "option": "Botón atrás"
+    }
+  ],
+  "Save": "Guardar",
+
+  "LightOffTimeOptions": [
+    {
+      "value": 1,
+      "option": "10 segundos"
+    },
+    {
+      "value": 3,
+      "option": "30 segundos"
+    },
+    {
+      "value": 6,
+      "option": "1 minuto"
+    },
+    {
+      "value": 12,
+      "option": "2 minutos"
+    },
+    {
+      "value": 30,
+      "option": "5 minutos"
+    },
+    {
+      "value": 60,
+      "option": "10 minutos"
+    },
+    {
+      "value": 90,
+      "option": "15 minutos"
+    }
+  ],
+  "CustomColor": "Color personalizado",
+  "Preview": "Vista previa",
+  "Preset": "Preajuste",
+
+  "SelectLanguage": "Idioma",
+  "DeviceInfo": "Información del dispositivo",
+  "StartPair": "Comenzar emparejamiento",
+  "Pairing": "Emparejando",
+  "PairSuccess": "Emparejamiento exitoso",
+  "PairFail": "Emparejamiento fallido",
+  "LongDistanceTips": "(En modo de larga distancia, el alcance es mayor, la resistencia a interferencias es mejor, pero el consumo de corriente aumenta y el tiempo de uso disminuye.)",
+
+  "Upgrade": "Actualización de firmware",
+  "UpgradeTips": "¡Nuevo firmware detectado! Vaya a la configuración para actualizar o haga clic en este mensaje para acceder.",
+
+  "Cancel": "Cancelar",
+  "OK": "Aceptar",
+  "DialogDeviceUnsupport": "Este dispositivo aún no es compatible",
+  "DialogUpdating": "Espere, actualizando configuración",
+  "DialogOffline": "El dispositivo inalámbrico está desconectado, enciéndalo o active la alimentación.",
+
+  "DialogExportName": "Ingrese el nombre del archivo",
+  "DialogImporting":"Cambiando configuración, espere",
+  "DialogSelectMacroFirst": "Seleccione una macro primero",
+  "DialogMaxMacroKey": "Se alcanzó el límite de teclas de macro",
+  "DialogStopRecordFirst": "Detenga la grabación de macro primero",
+  "DialogSaveMacroFirst": "Guarde la macro primero",
+  "DialogShortcutKeyTips": "Ingrese una sola tecla",
+  "DialogUpgradeTips": "Consigli:\n1.Non rimuovere il dispositivo o aggiornare le pagine web durante l'aggiornamento, altrimenti l'aggiornamento non funzionerà correttamente.\n2.Una volta completato l'aggiornamento del firmware, è necessario riaccoppiare il ricevitore, altrimenti il dispositivo non funzionerà correttamente.\n3.Il mouse deve essere aggiornato in modalità cablata.",
+  "DialogUpgradeOperation": "Seguire i seguenti passaggi per eseguire l'aggiornamento del firmware: \n1.Premere il tasto Enter per aprire la casella in alto a sinistra del browser. \n2.Premere la tastiera \"TAB\", \"Tasto in alto↑\" per selezionare il dispositivo. \n3.Dopo aver selezionato il dispositivo, premere nuovamente il tasto Enter per aggiornare il firmware.",
+  "DialogUpgradeUpgrading": "El dispositivo se está actualizando \nNota: No lo desconecte durante la actualización para evitar fallos.",
+  "DialogUpgradeRead": "He leído",
+  "DialogUpgradeStart": "Comienza la actualización",
+  "DialogUpgradeSuccess": "Actualización exitosa",
+  "DialogUpgradeSuccessTips": "Actualización completada\n",
+  "DialogUpgradeFail": "Actualización fallida",
+  "DialogUpgradeFirst": "Algunos dispositivos fallaron, continúe la actualización o podrían no funcionar.",
+
+  "keyboard": {
+    "NewConfiguration": "Crear nuevo perfil",
+    "RestoreDefault":"Restaurar predeterminados",
+    "isRestoreDefault": "¿Restaurar valores predeterminados?",
+    "SelectButton":"Seleccione una tecla primero",
+    "seleConfigTips":"¿Cambiar configuración?",
+    "deleteConfigTips":"¿Eliminar configuración actual?",
+    "sameTips":"¡Ya existe un perfil con este nombre!",
+    "default":"Predeterminado:",
+    "current":"Actual:",
+    "macroHead":"Nombre de macro",
+    "action": "Acción",
+    "FunctionList": [
+      {
+        "option": "Teclas básicas",
+        "value": 1
+      },
+      {
+        "option": "Multimedia",
+        "value": 2
+      },
+      {
+        "option": "Uso de macro",
+        "value": 3
+      },
+      {
+        "option": "Desactivado",
+        "value": 4
+      }
+    ],
+    "keyboardKeyfunctions": [
+      {
+        "type": "0x00",
+        "value": "0x00",
+        "label": "Desactivado"
+      },
+      {
+        "type": "0x03",
+        "children": [
+          {
+            "value": "0x0183",
+            "label": "Reproductor"
+          },
+          {
+            "value": "0x00CD",
+            "label": "Reproducir/Pausa"
+          },
+          {
+            "value": "0x00B5",
+            "label": "Siguiente"
+          },
+          {
+            "value": "0x00B6",
+            "label": "Anterior"
+          },
+          {
+            "value": "0x00B7",
+            "label": "Detener"
+          },
+          {
+            "value": "0x00E2",
+            "label": "Silencio"
+          },
+          {
+            "value": "0x00E9",
+            "label": "Subir volumen"
+          },
+          {
+            "value": "0x00EA",
+            "label": "Bajar volumen"
+          },
+          {
+            "value": "0x018A",
+            "label": "Correo"
+          },
+          {
+            "value": "0x0192",
+            "label": "Calculadora"
+          },
+          {
+            "value": "0x0194",
+            "label": "Mi PC"
+          },
+          {
+            "value": "0x0223",
+            "label": "Inicio"
+          },
+          {
+            "value": "0x0221",
+            "label": "Buscar"
+          },
+          {
+            "value": "0x0225",
+            "label": "Adelante"
+          },
+          {
+            "value": "0x0224",
+            "label": "Atrás"
+          },
+          {
+            "value": "0x0226",
+            "label": "Detener"
+          },
+          {
+            "value": "0x0227",
+            "label": "Actualizar"
+          },
+          {
+            "value": "0x022A",
+            "label": "Favoritos"
+          },
+          {
+            "value": "0x0070",
+            "label": "Brillo -"
+          },
+          {
+            "value": "0x006F",
+            "label": "Brillo +"
+          },
+          {
+            "value": "0x02A0",
+            "label": "Buscar en barra de menú"
+          }
+        ]
+      },
+      {
+        "type": "0x05",
+        "children": [
+          {
+            "value": "0x0017",
+            "label": "Restablecer de fábrica"
+          },
+          {
+            "value": "0x0000",
+            "label": "Dispositivo Bluetooth 1"
+          },
+          {
+            "value": "0x0001",
+            "label": "Dispositivo Bluetooth 2"
+          },
+          {
+            "value": "0x0002",
+            "label": "Dispositivo Bluetooth 3"
+          },
+          {
+            "value": "0x0003",
+            "label": "Canal 2.4G"
+          },
+          {
+            "value": "0x0004",
+            "label": "Ciclo de modo de luz +"
+          },
+          {
+            "value": "0x0005",
+            "label": "Modo de luz +"
+          },
+          {
+            "value": "0x0006",
+            "label": "Modo de luz -"
+          },
+          {
+            "value": "0x0007",
+            "label": "Ciclo de color de luz"
+          },
+          {
+            "value": "0x0008",
+            "label": "Color de luz +"
+          },
+          {
+            "value": "0x0009",
+            "label": "Color de luz -"
+          },
+          {
+            "value": "0x000A",
+            "label": ""
+          },
+          {
+            "value": "0x000B",
+            "label": "Ciclo de velocidad de luz"
+          },
+          {
+            "value": "0x000C",
+            "label": "Velocidad de luz +"
+          },
+          {
+            "value": "0x000D",
+            "label": "Velocidad de luz -"
+          },
+          {
+            "value": "0x000E",
+            "label": "Ciclo de brillo de luz"
+          },
+          {
+            "value": "0x000F",
+            "label": "Brillo de luz +"
+          },
+          {
+            "value": "0x0010",
+            "label": "Brillo de luz -"
+          },
+          {
+            "value": "0x0011",
+            "label": "Ver batería"
+          },
+          {
+            "value": "0x0012",
+            "label": "Interruptor de luz"
+          },
+          {
+            "value": "0x0013",
+            "label": "Bloqueo FN"
+          },
+          {
+            "value": "0x0014",
+            "label": "Canal Bluetooth"
+          },
+          {
+            "value": "0x0015",
+            "label": "Canal cableado"
+          },
+          {
+            "value": "0x0016",
+            "label": "Borrar registros Bluetooth"
+          },
+          {
+            "value": "0x0017",
+            "label": "Restablecer configuración inicial"
+          },
+          {
+            "value": "0x0018",
+            "label": "Sistema Windows"
+          },
+          {
+            "value": "0x0019",
+            "label": "Sistema Mac"
+          },
+          {
+            "value": "0x001A",
+            "label": "Sistema Android"
+          },
+          {
+            "value": "0x001B",
+            "label": "Sistema iOS"
+          },
+          {
+            "value": "0x001C",
+            "label": "Desactivar ALT+TAB"
+          },
+          {
+            "value": "0x001D",
+            "label": "Desactivar ALT+FN"
+          },
+          {
+            "value": "0x001E",
+            "label": "Desactivar SHIFT+TAB"
+          },
+          {
+            "value": "0x001F",
+            "label": "Desactivar WIN"
+          },
+          {
+            "value": "0x0020",
+            "label": "Otras luces constantes de matriz"
+          },
+          {
+            "value": "0x0021",
+            "label": "Desactivar WIN+APP"
+          },
+          {
+            "value": "0x0022",
+            "label": "Bloqueo completo de teclado"
+          },
+          {
+            "value": "0x0023",
+            "label": "Tecla Copilot de Windows"
+          },
+          {
+            "value": "0x0024",
+            "label": "Interruptor de modo de tira LED"
+          },
+          {
+            "value": "0x0025",
+            "label": "Ciclo de modo de tira LED"
+          },
+          {
+            "value": "0x0026",
+            "label": "Modo de tira LED +"
+          },
+          {
+            "value": "0x0027",
+            "label": "Modo de tira LED -"
+          },
+          {
+            "value": "0x0028",
+            "label": "Ciclo de brillo de tira LED"
+          },
+          {
+            "value": "0x0029",
+            "label": "Brillo de tira LED +"
+          },
+          {
+            "value": "0x002A",
+            "label": "Brillo de tira LED -"
+          },
+          {
+            "value": "0x002B",
+            "label": "Ciclo de velocidad de tira LED"
+          },
+          {
+            "value": "0x002C",
+            "label": "Velocidad de tira LED +"
+          },
+          {
+            "value": "0x002D",
+            "label": "Velocidad de tira LED -"
+          },
+          {
+            "value": "0x002E",
+            "label": "Ciclo de brillo de tira LED"
+          },
+          {
+            "value": "0x002F",
+            "label": "Desactivar WIN"
+          },
+          {
+            "value": "0x0030",
+            "label": "Brillo de tira LED -"
+          },
+          {
+            "value": "0x0031",
+            "label": "Ciclo de modo de luz -"
+          }
+        ]
+      },
+      {
+        "type": "0x06",
+        "children": [
+          {
+            "value": "0x01",
+            "label": "FN"
+          },
+          {
+            "value": "0x02",
+            "label": "MacFn"
+          },
+          {
+            "value": "0x03",
+            "label": "FN2"
+          }
+        ]
+      },
+      {
+        "type": "0x09",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "Tecla de secuencia 1"
+          },
+          {
+            "value": "0x0002",
+            "label": "Tecla de secuencia 2"
+          },
+          {
+            "value": "0x0003",
+            "label": "Tecla de secuencia 3"
+          },
+          {
+            "value": "0x0004",
+            "label": "Tecla de secuencia 4"
+          },
+          {
+            "value": "0x0005",
+            "label": "Tecla de secuencia 5"
+          },
+          {
+            "value": "0x0006",
+            "label": "Tecla de secuencia 6"
+          },
+          {
+            "value": "0x0007",
+            "label": "Tecla de secuencia 7"
+          },
+          {
+            "value": "0x0008",
+            "label": "Tecla de secuencia 8"
+          },
+          {
+            "value": "0x0009",
+            "label": "Tecla de secuencia 9"
+          },
+          {
+            "value": "0x000A",
+            "label": "Tecla de secuencia 10"
+          },
+          {
+            "value": "0x000B",
+            "label": "Tecla de secuencia 11"
+          },
+          {
+            "value": "0x000C",
+            "label": "Tecla de secuencia 12"
+          },
+          {
+            "value": "0x000D",
+            "label": "Tecla de secuencia 13"
+          },
+          {
+            "value": "0x000E",
+            "label": "Tecla de secuencia 14"
+          },
+          {
+            "value": "0x000F",
+            "label": "Tecla de secuencia 15"
+          },
+          {
+            "value": "0x0010",
+            "label": "Tecla de secuencia 16"
+          }
+        ]
+      },
+      {
+        "type": "0x0A",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "Botón izquierdo"
+          },
+          {
+            "value": "0x0002",
+            "label": "Botón derecho"
+          },
+          {
+            "value": "0x0004",
+            "label": "Botón central"
+          },
+          {
+            "value": "0x0010",
+            "label": "Botón adelante"
+          },
+          {
+            "value": "0x0008",
+            "label": "Botón atrás"
+          }
+        ]
+      }
+    ],
+    "MacroUse": "Uso de macro",
+    "DisableList": [
+      {
+        "option": "Desactivado",
+        "value": 0
+      },
+      {
+        "option": "Activado",
+        "value": 2
+      }
+    ],
+
+    "modeList": [
+      { "option": "Modo de luz", "value": 0 },
+      { "option": "Ritmo musical", "value": 1 }
+    ],
+    "colorMode": "Modo de color mixto",
+
+    "transcribe": "Grabar",
+    
+    "keyboardFirmwareVersion": "Versión de firmware del receptor",
+    "FirmwareVersion": "Versión de firmware del teclado",
+    "newTips": "Versión más reciente",
+    "pairHead":"Herramienta de emparejamiento",
+    "pair":"Emparejar",
+    "rate": "Tasa de sondeo",
+    "SleepTime": "Tiempo de reposo",
+    "RestoreDefaultTips": "Restablecer de fábrica",
+    "keyboardTabList": [
+      {
+        "option": "Tecla",
+        "value": 1
+      },
+      {
+        "option": "Efecto de luz",
+        "value": 2
+      },
+      {
+        "option": "Macro",
+        "value": 3
+      },
+      {
+        "option": "Configuración",
+        "value": 4
+      }
+    ],
+    "DialogUpgradeTips": "Nota: \n1. Durante la actualización, no retire el dispositivo ni actualice la página, de lo contrario fallará y el dispositivo no funcionará correctamente.",
+    "DialogUpgradeOperation": "Seguire i seguenti passaggi per eseguire l'aggiornamento del firmware: \n1.Durante el proceso de actualización, desconecte el receptor primero.\n2.Fare clic su \"Avvia l'aggiornamento\" per mostrare un popup nell'angolo in alto a sinistra del browser. \n3.Elija span style = 'color: red; font-weight: bold'>\"dispositivo desconocido (3554: f808)\"</span> haga clic en \"conectar\".. \n4.Inizia l'interfaccia di aggiornamento.",
+    "DialogUpgradeUpgrading": "¡Hola!\n Para optimizar tu experiencia de uso, esta actualización ha solucionado los errores conocidos. Actualiza la versión siguiendo estos pasos:\n 1. Antes de actualizar, desconecta el Bluetooth y desenchufa el receptor 2.4G.\n 2. Cambia el teclado al modo cableado y conecta el cable de datos Type-C al puerto del computador.\n 3. Haz clic en \"Iniciar actualización\" y se abrirá una ventana en la esquina superior izquierda del navegador.\n 4. Selecciona <span style='color:red;font-weight:bold'>\"Dispositivo desconocido (3554:F808)\"</span> para acceder a BOOT.\n 5. Haz clic en \"Conectar\" para comenzar a actualizar la versión.\n 6. Cuando la barra de progreso alcance el 100%, la actualización será exitosa.\n Nota: Asegúrate de que la red del computador sea estable. No conectes ni desconectes los dispositivos. El teclado no estará disponible durante la actualización. Sigue las instrucciones. Gracias por su cooperación.",
+    "upgradeTips":"Regrese a la página principal y conecte el modo cableado para actualizar.\n(nota: ¡ el receptor debe desconectarse antes de actualizarse!)",
+    "DialogPairTips":"Ponga el teclado en modo de emparejamiento (cambie a modo inalámbrico, luego presione Fn+4 durante 3 segundos hasta que la luz parpadee en azul) y haga clic en",
+    "pageUpdateTips":"Se detecta una actualización de la función o interfaz, haga clic en aceptar para eliminar la caché y recargarla."
+  }
+}

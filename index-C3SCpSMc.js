@@ -33768,9 +33768,14 @@ var FY = g_((qn, Yn) => {
   }
   const _p = (e, t, n = 2) =>
     e.toString(16).padStart(n, "0") + t.toString(16).padStart(n, "0");
-  async function k8({ homePage: e, test: t }) {
-    (await Ee.Handle_Exit(),
-      e && t !== !0 ? (window.location.href = e) : window.location.reload(!0));
+  async function k8({ homePage, test }) {
+    await Ee.Handle_Exit();
+
+    // if (homePage && test !== true) {
+    //   window.location.href = homePage;
+    // } else {
+    //   window.location.reload(true);
+    // }
   }
   function Lz({ refresh: e, version: t, clearData: n }, r) {
     if (e) {
@@ -38557,25 +38562,42 @@ var FY = g_((qn, Yn) => {
             }
         }
         async function Ae() {
-          var Q;
-          if ((await Ee.Handle_Exit(), !a.value.test)) {
-            ((E.value = !0), await Se());
-            const O = nn("deviceInfo");
-            O
-              ? setTimeout(async () => {
-                  const B = await Ee.Get_ConnectDevice_Info(O);
-                  (B !== null
-                    ? await ve(B)
-                    : (window.location.href = a.value.homePage),
-                    (E.value = !1));
-                }, 600)
-              : (window.location.href = a.value.homePage);
-          } else
-            (Se(),
-              (s.value =
-                ((Q = a.value) == null ? void 0 : Q.vid) &&
-                !!window.navigator.hid),
-              s.value && (ye(), fe(), ee()));
+          await Ee.Handle_Exit();
+
+          if (!a.value.test) {
+            // Normal mode
+            E.value = true;
+            await Se();
+
+            const deviceInfo = nn("deviceInfo");
+
+            if (deviceInfo) {
+              setTimeout(async () => {
+                const connectInfo = await Ee.Get_ConnectDevice_Info(deviceInfo);
+
+                if (connectInfo !== null) {
+                  await ve(connectInfo);
+                } else {
+                  // window.location.href = a.value.homePage;
+                }
+
+                E.value = false;
+              }, 600);
+            } else {
+              // window.location.href = a.value.homePage;
+            }
+          } else {
+            // Test mode
+            Se();
+
+            s.value = a.value?.vid && !!window.navigator.hid;
+
+            if (s.value) {
+              ye();
+              fe();
+              ee();
+            }
+          }
         }
         return (
           dt(() => Ae()),

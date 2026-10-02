@@ -1,0 +1,670 @@
+{
+  "Language": "日本語",
+
+  "Welcome": "Control HUB WEBへようこそ",
+  "SelectDevice": "ここではキー/センサー/照明/マクロなどの装備設定が可能です",
+  "SupportBrowser": "Google Chrome、Microsoft Edge、Operaなどのブラウザに対応",
+  "SupportSystem": "Windows、Mac OS、Linuxなどの主要OSに対応",
+  "Connect": "デバイスを接続 +",
+  "OperationTips": "操作手順：<デバイスを接続+>クリック → USBデバイス選択 → <接続>クリック → 設定画面へ",
+  "PairButtonTips": "新規レシーバーペアリング",
+  "PairTips": "ペアリングするレシーバーを挿入 → キーボードスペースキーを押す → ポップアップでレシーバー選択 → 接続 → ペアリング開始",
+  "Version": "バージョン: ",
+  "linkText": "デバイス接続をクリック",
+  
+  "ReportRates": [
+    {
+      "value": 8,
+      "rate": 125,
+      "option": "125Hz"
+    },
+    {
+      "value": 4,
+      "rate": 250,
+      "option": "250Hz"
+    },
+    {
+      "value": 2,
+      "rate": 500,
+      "option": "500Hz"
+    },
+    {
+      "value": 1,
+      "rate": 1000,
+      "option": "1000Hz"
+    },
+    {
+      "value": 16,
+      "rate": 2000,
+      "option": "2000Hz"
+    },
+    {
+      "value": 32,
+      "rate": 4000,
+      "option": "4000Hz"
+    },
+    {
+      "value": 64,
+      "rate": 8000,
+      "option": "8000Hz"
+    }
+  ],
+  "Brightness": "明るさ",
+  "Speed": "速度",
+
+  "MacroList": "マクロリスト",
+  "KeyList": "キーリスト",
+  "StartRecord": "記録開始",
+  "StopRecord": "記録停止",
+  "AutoDelay": "遅延を自動挿入",
+  "DefaultDelay": "デフォルト遅延",
+  "UntilThisReleased": "キーが離されるまでループ",
+  "UntilAnyPressed": "任意のキーが押されるまでループ",
+  "UntilThisPressed": "キーが再度押されるまでループ",
+  "CycleTimes": "ループ回数",
+  "InsertEvent": "イベント挿入",
+  "InsertEventOptions": [
+    {
+      "command": 0,
+      "option": "キープレス"
+    },
+    {
+      "command": 1,
+      "option": "キーリリース"
+    },
+    {
+      "command": 2,
+      "value": "0x040001",
+      "option": "左クリック"
+    },
+    {
+      "command": 3,
+      "value": "0x040002",
+      "option": "右クリック"
+    },
+    {
+      "command": 4,
+      "value": "0x040004",
+      "option": "中央クリック"
+    },
+    {
+      "command": 5,
+      "value": "0x040010",
+      "option": "進む"
+    },
+    {
+      "command": 6,
+      "value": "0x040008",
+      "option": "戻る"
+    }
+  ],
+  "Save": "保存",
+
+  "LightOffTimeOptions": [
+    {
+      "value": 1,
+      "option": "10秒"
+    },
+    {
+      "value": 3,
+      "option": "30秒"
+    },
+    {
+      "value": 6,
+      "option": "1分"
+    },
+    {
+      "value": 12,
+      "option": "2分"
+    },
+    {
+      "value": 30,
+      "option": "5分"
+    },
+    {
+      "value": 60,
+      "option": "10分"
+    },
+    {
+      "value": 90,
+      "option": "15分"
+    }
+  ],
+  "CustomColor": "カスタムカラー",
+  "Preview": "プレビュー",
+  "Preset": "プリセット",
+
+  "SelectLanguage": "言語",
+  "DeviceInfo": "デバイス情報",
+  "StartPair": "ペアリング開始",
+  "Pairing": "ペアリング中",
+  "PairSuccess": "ペアリング成功",
+  "PairFail": "ペアリング失敗",
+  "LongDistanceTips": "(長距離モード：距離延伸・耐干渉性向上、ただし消費電流増加・使用時間減少)",
+
+  "Upgrade": "ファームウェア更新",
+  "UpgradeTips": "新しいファームウェアを検出。設定画面で更新するか、メッセージをクリックしてください",
+
+  "Cancel": "キャンセル",
+  "OK": "確定",
+  "DialogDeviceUnsupport": "このデバイスは未対応です",
+  "DialogUpdating": "設定更新中、お待ちください",
+  "DialogOffline": "無線デバイスがオフラインです。デバイスを起動または電源を入れてください",
+
+  "DialogExportName": "ファイル名を入力してください",
+  "DialogImporting": "設定切り替え中、しばらくお待ちください",
+  "DialogSelectMacroFirst": "マクロを選択してください",
+  "DialogMaxMacroKey": "マクロキーの上限に達しました",
+  "DialogStopRecordFirst": "マクロ記録を停止してください",
+  "DialogSaveMacroFirst": "マクロを保存してください",
+  "DialogShortcutKeyTips": "単一キーを入力してください",
+  "DialogUpgradeTips": "注意:\n1. 更新中にデバイスを抜いたりページを更新しないでください\n2. 更新後はレシーバーの再ペアリングが必要です\n3. マウスは有線モードで更新してください",
+  "DialogUpgradeOperation": "更新手順:\n1. Enterキーを押し、ポップアップを表示\n2. TAB/↑キーでデバイスを選択\n3. Enterキーで更新開始",
+  "DialogUpgradeUpgrading": "ファームウェア更新中\n注意: 更新中はデバイスの抜き差しをしないでください",
+  "DialogUpgradeRead": "確認しました",
+  "DialogUpgradeStart": "アップグレードを開始します",
+  "DialogUpgradeSuccess": "更新成功",
+  "DialogUpgradeSuccessTips": "デバイスの更新が完了しました",
+  "DialogUpgradeFail": "更新失敗",
+  "DialogUpgradeFirst": "更新失敗デバイスがあります。続行しないと使用不能になる可能性があります",
+
+  "keyboard": {
+    "NewConfiguration": "新規プロファイル作成",
+    "RestoreDefault": "デフォルトに戻す",
+    "isRestoreDefault": "デフォルト設定に戻しますか？",
+    "SelectButton": "キーを選択してください",
+    "seleConfigTips": "設定を切り替えますか？",
+    "deleteConfigTips": "現在の設定を削除しますか？",
+    "sameTips": "同名の設定項目が既に存在します！",
+    "default": "デフォルト：",
+    "current": "現在：",
+    "macroHead": "マクロ名",
+    "action": "アクション",
+    "FunctionList": [
+      {
+        "option": "基本キー",
+        "value": 1
+      },
+      {
+        "option": "マルチメディア",
+        "value": 2
+      },
+      {
+        "option": "マクロ使用",
+        "value": 3
+      },
+      {
+        "option": "無効",
+        "value": 4
+      }
+    ],
+    "keyboardKeyfunctions": [
+      {
+        "type": "0x00",
+        "value": "0x00",
+        "label": "無効"
+      },
+      {
+        "type": "0x03",
+        "children": [
+          {
+            "value": "0x0183",
+            "label": "プレイヤー"
+          },
+          {
+            "value": "0x00CD",
+            "label": "再生/一時停止"
+          },
+          {
+            "value": "0x00B5",
+            "label": "次へ"
+          },
+          {
+            "value": "0x00B6",
+            "label": "前へ"
+          },
+          {
+            "value": "0x00B7",
+            "label": "停止"
+          },
+          {
+            "value": "0x00E2",
+            "label": "消音"
+          },
+          {
+            "value": "0x00E9",
+            "label": "音量+"
+          },
+          {
+            "value": "0x00EA",
+            "label": "音量-"
+          },
+          {
+            "value": "0x018A",
+            "label": "メール"
+          },
+          {
+            "value": "0x0192",
+            "label": "電卓"
+          },
+          {
+            "value": "0x0194",
+            "label": "マイコンピュータ"
+          },
+          {
+            "value": "0x0223",
+            "label": "ホーム"
+          },
+          {
+            "value": "0x0221",
+            "label": "検索"
+          },
+          {
+            "value": "0x0225",
+            "label": "進む"
+          },
+          {
+            "value": "0x0224",
+            "label": "戻る"
+          },
+          {
+            "value": "0x0226",
+            "label": "停止"
+          },
+          {
+            "value": "0x0227",
+            "label": "再読み込み"
+          },
+          {
+            "value": "0x022A",
+            "label": "お気に入り"
+          },
+          {
+            "value": "0x0070",
+            "label": "明るさ-"
+          },
+          {
+            "value": "0x006F",
+            "label": "明るさ+"
+          },
+          {
+            "value": "0x02A0",
+            "label": "メニュー検索"
+          }
+        ]
+      },
+      {
+        "type": "0x05",
+        "children": [
+          {
+            "value": "0x0017",
+            "label": "初期化"
+          },
+          {
+            "value": "0x0000",
+            "label": "Bluetooth 1"
+          },
+          {
+            "value": "0x0001",
+            "label": "Bluetooth 2"
+          },
+          {
+            "value": "0x0002",
+            "label": "Bluetooth 3"
+          },
+          {
+            "value": "0x0003",
+            "label": "2.4G"
+          },
+          {
+            "value": "0x0004",
+            "label": "照明モード+"
+          },
+          {
+            "value": "0x0005",
+            "label": "照明モード+"
+          },
+          {
+            "value": "0x0006",
+            "label": "照明モード-"
+          },
+          {
+            "value": "0x0007",
+            "label": "カラー循環"
+          },
+          {
+            "value": "0x0008",
+            "label": "カラー+"
+          },
+          {
+            "value": "0x0009",
+            "label": "カラー-"
+          },
+          {
+            "value": "0x000A",
+            "label": ""
+          },
+          {
+            "value": "0x000B",
+            "label": "速度循環"
+          },
+          {
+            "value": "0x000C",
+            "label": "速度+"
+          },
+          {
+            "value": "0x000D",
+            "label": "速度-"
+          },
+          {
+            "value": "0x000E",
+            "label": "輝度循環"
+          },
+          {
+            "value": "0x000F",
+            "label": "輝度+"
+          },
+          {
+            "value": "0x0010",
+            "label": "輝度-"
+          },
+          {
+            "value": "0x0011",
+            "label": "バッテリー"
+          },
+          {
+            "value": "0x0012",
+            "label": "照明切替"
+          },
+          {
+            "value": "0x0013",
+            "label": "FNロック"
+          },
+          {
+            "value": "0x0014",
+            "label": "Bluetooth"
+          },
+          {
+            "value": "0x0015",
+            "label": "有線"
+          },
+          {
+            "value": "0x0016",
+            "label": "Bluetooth消去"
+          },
+          {
+            "value": "0x0017",
+            "label": "初期化"
+          },
+          {
+            "value": "0x0018",
+            "label": "Windows"
+          },
+          {
+            "value": "0x0019",
+            "label": "macOS"
+          },
+          {
+            "value": "0x001A",
+            "label": "Android"
+          },
+          {
+            "value": "0x001B",
+            "label": "iOS"
+          },
+          {
+            "value": "0x001C",
+            "label": "ALT+TAB無効"
+          },
+          {
+            "value": "0x001D",
+            "label": "ALT+FN無効"
+          },
+          {
+            "value": "0x001E",
+            "label": "SHIFT+TAB無効"
+          },
+          {
+            "value": "0x001F",
+            "label": "WINキー無効"
+          },
+          {
+            "value": "0x0020",
+            "label": "マトリックス照明"
+          },
+          {
+            "value": "0x0021",
+            "label": "WIN+APP無効"
+          },
+          {
+            "value": "0x0022",
+            "label": "キーボードロック"
+          },
+          {
+            "value": "0x0023",
+            "label": "Copilotキー"
+          },
+          {
+            "value": "0x0024",
+            "label": "ライトバー切替"
+          },
+          {
+            "value": "0x0025",
+            "label": "ライトバー循環"
+          },
+          {
+            "value": "0x0026",
+            "label": "ライトバーモード+"
+          },
+          {
+            "value": "0x0027",
+            "label": "ライトバーモード-"
+          },
+          {
+            "value": "0x0028",
+            "label": "ライトバー輝度循環"
+          },
+          {
+            "value": "0x0029",
+            "label": "ライトバー輝度+"
+          },
+          {
+            "value": "0x002A",
+            "label": "ライトバー輝度-"
+          },
+          {
+            "value": "0x002B",
+            "label": "ライトバー速度循環"
+          },
+          {
+            "value": "0x002C",
+            "label": "ライトバー速度+"
+          },
+          {
+            "value": "0x002D",
+            "label": "ライトバー速度-"
+          },
+          {
+            "value": "0x002E",
+            "label": "ライトバー輝度循環"
+          },
+          {
+            "value": "0x002F",
+            "label": "WINキー無効"
+          },
+          {
+            "value": "0x0030",
+            "label": "ライトバー輝度-"
+          },
+          {
+            "value": "0x0031",
+            "label": "照明モード-"
+          }
+        ]
+      },
+      {
+        "type": "0x06",
+        "children": [
+          {
+            "value": "0x01",
+            "label": "FN"
+          },
+          {
+            "value": "0x02",
+            "label": "MacFn"
+          },
+          {
+            "value": "0x03",
+            "label": "FN2"
+          }
+        ]
+      },
+      {
+        "type": "0x09",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "シーケンス1"
+          },
+          {
+            "value": "0x0002",
+            "label": "シーケンス2"
+          },
+          {
+            "value": "0x0003",
+            "label": "シーケンス3"
+          },
+          {
+            "value": "0x0004",
+            "label": "シーケンス4"
+          },
+          {
+            "value": "0x0005",
+            "label": "シーケンス5"
+          },
+          {
+            "value": "0x0006",
+            "label": "シーケンス6"
+          },
+          {
+            "value": "0x0007",
+            "label": "シーケンス7"
+          },
+          {
+            "value": "0x0008",
+            "label": "シーケンス8"
+          },
+          {
+            "value": "0x0009",
+            "label": "シーケンス9"
+          },
+          {
+            "value": "0x000A",
+            "label": "シーケンス10"
+          },
+          {
+            "value": "0x000B",
+            "label": "シーケンス11"
+          },
+          {
+            "value": "0x000C",
+            "label": "シーケンス12"
+          },
+          {
+            "value": "0x000D",
+            "label": "シーケンス13"
+          },
+          {
+            "value": "0x000E",
+            "label": "シーケンス14"
+          },
+          {
+            "value": "0x000F",
+            "label": "シーケンス15"
+          },
+          {
+            "value": "0x0010",
+            "label": "シーケンス16"
+          }
+        ]
+      },
+      {
+        "type": "0x0A",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "左クリック"
+          },
+          {
+            "value": "0x0002",
+            "label": "右クリック"
+          },
+          {
+            "value": "0x0004",
+            "label": "中央クリック"
+          },
+          {
+            "value": "0x0010",
+            "label": "進む"
+          },
+          {
+            "value": "0x0008",
+            "label": "戻る"
+          }
+        ]
+      }
+    ],
+    "MacroUse": "マクロ使用",
+    "DisableList": [
+      {
+        "option": "無効",
+        "value": 0
+      },
+      {
+        "option": "有効",
+        "value": 2
+      }
+    ],
+
+    "modeList": [
+      { "option": "照明モード", "value": 0 },
+      { "option": "ミュージックシンク", "value": 1 }
+    ],
+    "colorMode": "マルチカラーモード",
+
+    "transcribe": "記録",
+    
+    "keyboardFirmwareVersion": "レシーバーファームウェア",
+    "FirmwareVersion": "キーボードファームウェア",
+    "newTips": "最新バージョンです",
+    "pairHead": "ペアリングツール",
+    "pair": "ペアリング",
+    "rate": "ポーリングレート",
+    "SleepTime": "スリープ時間",
+    "RestoreDefaultTips": "工場出荷時設定",
+    "keyboardTabList": [
+      {
+        "option": "キー",
+        "value": 1
+      },
+      {
+        "option": "照明",
+        "value": 2
+      },
+      {
+        "option": "マクロ",
+        "value": 3
+      },
+      {
+        "option": "設定",
+        "value": 4
+      }
+    ],
+    "DialogUpgradeTips": "注意:\n1. 更新中にデバイスを抜いたりページを更新しないでください",
+    "DialogUpgradeOperation": "更新手順:\n1.アップグレード中に受信機を抜いてください。\n2. 「更新開始」をクリック\n3.<span style='color：red ;font-weight：bold'>「不明なデバイス（3554：F 808）」</span>をクリックし、「接続」をクリックします。\n4. 更新画面へ",
+    "DialogUpgradeUpgrading": "こんにちは！\n ユーザー体験を最適化するため、今回のアップグレードでは既知のバグを修正しました。バージョンアップは以下の手順に従って行ってください。\n 1. アップグレード前に、ブルートゥースを切断し、2.4G受信機を抜き取ります。\n 2. キーボードを有線モードに切り替え、Type-Cデータケーブルをコンピュータのポートに接続します。\n 3. 「アップグレード開始」をクリックすると、ブラウザの左上隅にウィンドウが表示されます。\n 4. <span style='color:red;font-weight:bold'>「不明なデバイス（3554:F808）」</span>を選択してBOOTに入ります。\n 5. 「接続」をクリックしてバージョンアップを開始します。\n 6. 進捗バーが100%に達したら、アップグレードは成功です。\n 注意：コンピュータのネットワークが安定していることを確認してください。デバイスの差し込みや抜き取りを行わないでください。アップグレード中はキーボードを使用できません。指示に従って操作してください。ご協力いただきありがとうございます。",
+    "upgradeTips": "ホームに戻り有線接続で更新してください \n（注意：アップグレードする前に受信機を抜いておく必要があります！）",
+    "DialogPairTips": "ペアリングモード:\n1. 無線モードに切替\n2. Fn+4を3秒長押し（青LED点滅）\n3. レシーバー近くで「ペアリング開始」クリック or スペースキー押下",
+    "pageUpdateTips": "機能またはインタフェースに更新が検出されたので、[OK]をクリックしてキャッシュをクリアし、再ロードします。"
+  }
+}

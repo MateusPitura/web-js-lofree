@@ -1,0 +1,671 @@
+{
+  "Language": "Deutsch",
+  "Welcome": "Willkommen bei Control HUB WEB",
+  "SelectDevice": "Hier können Sie Ihre Ausrüstung einrichten, einschließlich Tasten/Sensoren/Licht/Makros und anderen Einstellungen",
+  "SupportBrowser": "Unterstützt Browser wie Google Chrome, Microsoft Edge, Opera usw.",
+  "SupportSystem": "Kompatibel mit gängigen Betriebssystemen: Windows, Mac OS, Linux usw.",
+  "Connect": "Gerät verbinden +",
+  "OperationTips": "Anleitung: Klicken Sie auf <Gerät verbinden+> → USB-Gerät auswählen → <Verbinden> klicken → Konfigurationsoberfläche aufrufen",
+  "PairButtonTips": "Neue Empfängerpaarung",
+  "PairTips": "Empfänger zum Pairing einstecken → Leertaste drücken → Empfänger im Pop-up auswählen → Verbinden → Pairing starten",
+  "Version": "Version: ",
+  "linkText": "Zum Verbinden klicken",
+  
+  "ReportRates": [
+    {
+      "value": 8,
+
+      "rate": 125,
+
+      "option": "125Hz"
+    },
+    {
+      "value": 4,
+      "rate": 250,
+      "option": "250Hz"
+    },
+    {
+      "value": 2,
+      "rate": 500,
+      "option": "500Hz"
+    },
+    {
+      "value": 1,
+      "rate": 1000,
+      "option": "1000Hz"
+    },
+    {
+      "value": 16,
+      "rate": 2000,
+      "option": "2000Hz"
+    },
+    {
+      "value": 32,
+      "rate": 4000,
+      "option": "4000Hz"
+    },
+    {
+      "value": 64,
+      "rate": 8000,
+      "option": "8000Hz"
+    }
+  ],
+  "Brightness": "Helligkeit",
+  "Speed": "Geschwindigkeit",
+  
+  "MacroList": "Makroliste",
+  "KeyList": "Tastenliste",
+  "StartRecord": "Aufnahme starten",
+  "StopRecord": "Aufnahme stoppen",
+  "AutoDelay": "Verzögerung automatisch einfügen",
+  "DefaultDelay": "Standardverzögerung",
+  "UntilThisReleased": "Schleife bis Taste losgelassen wird",
+  "UntilAnyPressed": "Schleife bis beliebige Taste gedrückt wird",
+  "UntilThisPressed": "Schleife bis Taste erneut gedrückt wird",
+  "CycleTimes": "Schleifenzähler",
+  "InsertEvent": "Ereignis einfügen",
+  "InsertEventOptions": [
+    {
+      "command": 0,
+      "option": "Taste gedrückt"
+    },
+    {
+      "command": 1,
+      "option": "Taste losgelassen"
+    },
+    {
+      "command": 2,
+      "value": "0x040001",
+      "option": "Linksklick"
+    },
+    {
+      "command": 3,
+      "value": "0x040002",
+      "option": "Rechtsklick"
+    },
+    {
+      "command": 4,
+      "value": "0x040004",
+      "option": "Mittelklick"
+    },
+    {
+      "command": 5,
+      "value": "0x040010",
+      "option": "Vorwärts"
+    },
+    {
+      "command": 6,
+      "value": "0x040008",
+      "option": "Zurück"
+    }
+  ],
+  "Save": "Speichern",
+  
+  "LightOffTimeOptions": [
+    {
+      "value": 1,
+      "option": "10s"
+    },
+    {
+      "value": 3,
+      "option": "30s"
+    },
+    {
+      "value": 6,
+      "option": "1min"
+    },
+    {
+      "value": 12,
+      "option": "2min"
+    },
+    {
+      "value": 30,
+      "option": "5min"
+    },
+    {
+      "value": 60,
+      "option": "10min"
+    },
+    {
+      "value": 90,
+      "option": "15min"
+    }
+  ],
+  "CustomColor": "Benutzerdefinierte Farbe",
+  "Preview": "Vorschau",
+  "Preset": "Voreinstellung",
+  
+  "SelectLanguage": "Sprache",
+  "DeviceInfo": "Geräteinformation",
+  "StartPair": "Pairing starten",
+  "Pairing": "Pairing läuft",
+  "PairSuccess": "Pairing erfolgreich",
+  "PairFail": "Pairing fehlgeschlagen",
+  "LongDistanceTips": "(Langstreckenmodus: größere Reichweite und bessere Störfestigkeit, aber höherer Stromverbrauch und kürzere Nutzungsdauer)",
+  
+  "Upgrade": "Firmware-Update",
+  "UpgradeTips": "Neue Firmware gefunden. Gehen Sie zu den Einstellungen oder klicken Sie auf diese Nachricht.",
+  
+  "Cancel": "Abbrechen",
+  "OK": "Bestätigen",
+  "DialogDeviceUnsupport": "Dieses Gerät wird noch nicht unterstützt",
+  "DialogUpdating": "Bitte warten, Einstellungen werden aktualisiert...",
+  "DialogOffline": "Drahtloses Gerät offline. Bitte Gerät aufwecken oder einschalten.",
+  
+  "DialogExportName": "Dateiname eingeben",
+  "DialogImporting": "Konfiguration wird gewechselt, bitte warten...",
+  "DialogSelectMacroFirst": "Bitte wählen Sie zuerst ein Makro aus",
+  "DialogMaxMacroKey": "Maximale Anzahl an Makrotasten erreicht",
+  "DialogStopRecordFirst": "Bitte Makroaufnahme zuerst stoppen",
+  "DialogSaveMacroFirst": "Bitte Makro zuerst speichern",
+  "DialogShortcutKeyTips": "Bitte einzelne Taste eingeben",
+  "DialogUpgradeTips": "Hinweis:\n1. Entfernen Sie das Gerät nicht und aktualisieren Sie die Seite nicht während des Updates.\n2. Nach dem Firmware-Update muss der Empfänger neu gepaart werden.\n3. Maus muss im kabelgebundenen Modus aktualisiert werden.",
+  "DialogUpgradeOperation": "Firmware-Update-Schritte:\n1. Enter-Taste drücken → Pop-up erscheint\n2. Mit TAB/↑-Taste Gerät auswählen\n3. Enter-Taste drücken, um Update zu starten",
+  "DialogUpgradeUpgrading": "Firmware wird aktualisiert\nHinweis: Gerät während des Updates nicht trennen!",
+  "DialogUpgradeRead": "Ich habe verstanden",
+  "DialogUpgradeStart": "Starte das Upgrade",
+  "DialogUpgradeSuccess": "Update erfolgreich",
+  "DialogUpgradeSuccessTips": "Geräteupdate abgeschlossen",
+  "DialogUpgradeFail": "Update fehlgeschlagen",
+  "DialogUpgradeFirst": "Einige Geräte konnten nicht aktualisiert werden. Bitte fortsetzen, sonst funktionieren sie möglicherweise nicht.",
+  
+  "keyboard": {
+    "NewConfiguration": "Neues Profil erstellen",
+    "RestoreDefault": "Standard wiederherstellen",
+    "isRestoreDefault": "Standardeinstellungen wiederherstellen?",
+    "SelectButton": "Bitte zuerst Taste auswählen",
+    "seleConfigTips": "Konfiguration wechseln?",
+    "deleteConfigTips": "Aktuelle Konfiguration löschen?",
+    "sameTips": "Ein Konfigurationselement mit diesem Namen existiert bereits!",
+    "default": "Standard: ",
+    "current": "Aktuell: ",
+    "macroHead": "Makroname",
+    "action": "Aktion",
+    "FunctionList": [
+      {
+        "option": "Grundtasten",
+        "value": 1
+      },
+      {
+        "option": "Multimedia",
+        "value": 2
+      },
+      {
+        "option": "Makronutzung",
+        "value": 3
+      },
+      {
+        "option": "Deaktivieren",
+        "value": 4
+      }
+    ],
+    "keyboardKeyfunctions": [
+      {
+        "type": "0x00",
+        "value": "0x00",
+        "label": "Deaktivieren"
+      },
+      {
+        "type": "0x03",
+        "children": [
+          {
+            "value": "0x0183",
+            "label": "Player"
+          },
+          {
+            "value": "0x00CD",
+            "label": "Wiedergabe/Pause"
+          },
+          {
+            "value": "0x00B5",
+            "label": "Nächster"
+          },
+          {
+            "value": "0x00B6",
+            "label": "Vorheriger"
+          },
+          {
+            "value": "0x00B7",
+            "label": "Stopp"
+          },
+          {
+            "value": "0x00E2",
+            "label": "Stumm"
+          },
+          {
+            "value": "0x00E9",
+            "label": "Lauter"
+          },
+          {
+            "value": "0x00EA",
+            "label": "Leiser"
+          },
+          {
+            "value": "0x018A",
+            "label": "E-Mail"
+          },
+          {
+            "value": "0x0192",
+            "label": "Rechner"
+          },
+          {
+            "value": "0x0194",
+            "label": "Mein PC"
+          },
+          {
+            "value": "0x0223",
+            "label": "Startseite"
+          },
+          {
+            "value": "0x0221",
+            "label": "Suche"
+          },
+          {
+            "value": "0x0225",
+            "label": "Vorwärts"
+          },
+          {
+            "value": "0x0224",
+            "label": "Zurück"
+          },
+          {
+            "value": "0x0226",
+            "label": "Stop"
+          },
+          {
+            "value": "0x0227",
+            "label": "Aktualisieren"
+          },
+          {
+            "value": "0x022A",
+            "label": "Favoriten"
+          },
+          {
+            "value": "0x0070",
+            "label": "Helligkeit -"
+          },
+          {
+            "value": "0x006F",
+            "label": "Helligkeit +"
+          },
+          {
+            "value": "0x02A0",
+            "label": "Menüsuche"
+          }
+        ]
+      },
+      {
+        "type": "0x05",
+        "children": [
+          {
+            "value": "0x0017",
+            "label": "Werkseinstellungen"
+          },
+          {
+            "value": "0x0000",
+            "label": "BT-Gerät 1"
+          },
+          {
+            "value": "0x0001",
+            "label": "BT-Gerät 2"
+          },
+          {
+            "value": "0x0002",
+            "label": "BT-Gerät 3"
+          },
+          {
+            "value": "0x0003",
+            "label": "2.4G"
+          },
+          {
+            "value": "0x0004",
+            "label": "Beleuchtungsmodus +"
+          },
+          {
+            "value": "0x0005",
+            "label": "Beleuchtungsmodus +"
+          },
+          {
+            "value": "0x0006",
+            "label": "Beleuchtungsmodus -"
+          },
+          {
+            "value": "0x0007",
+            "label": "Farbzyklus"
+          },
+          {
+            "value": "0x0008",
+            "label": "Farbe +"
+          },
+          {
+            "value": "0x0009",
+            "label": "Farbe -"
+          },
+          {
+            "value": "0x000A",
+            "label": ""
+          },
+          {
+            "value": "0x000B",
+            "label": "Geschwindigkeitszyklus"
+          },
+          {
+            "value": "0x000C",
+            "label": "Geschwindigkeit +"
+          },
+          {
+            "value": "0x000D",
+            "label": "Geschwindigkeit -"
+          },
+          {
+            "value": "0x000E",
+            "label": "Helligkeitszyklus"
+          },
+          {
+            "value": "0x000F",
+            "label": "Helligkeit +"
+          },
+          {
+            "value": "0x0010",
+            "label": "Helligkeit -"
+          },
+          {
+            "value": "0x0011",
+            "label": "Akku"
+          },
+          {
+            "value": "0x0012",
+            "label": "Beleuchtung umschalten"
+          },
+          {
+            "value": "0x0013",
+            "label": "FN-Sperre"
+          },
+          {
+            "value": "0x0014",
+            "label": "BT-Kanal"
+          },
+          {
+            "value": "0x0015",
+            "label": "Kabelgebunden"
+          },
+          {
+            "value": "0x0016",
+            "label": "BT-Verlauf löschen"
+          },
+          {
+            "value": "0x0017",
+            "label": "Ersteinstellungen"
+          },
+          {
+            "value": "0x0018",
+            "label": "Windows"
+          },
+          {
+            "value": "0x0019",
+            "label": "macOS"
+          },
+          {
+            "value": "0x001A",
+            "label": "Android"
+          },
+          {
+            "value": "0x001B",
+            "label": "iOS"
+          },
+          {
+            "value": "0x001C",
+            "label": "ALT+TAB deaktivieren"
+          },
+          {
+            "value": "0x001D",
+            "label": "ALT+FN deaktivieren"
+          },
+          {
+            "value": "0x001E",
+            "label": "SHIFT+TAB deaktivieren"
+          },
+          {
+            "value": "0x001F",
+            "label": "WIN deaktivieren"
+          },
+          {
+            "value": "0x0020",
+            "label": "Matrix-Beleuchtung"
+          },
+          {
+            "value": "0x0021",
+            "label": "WIN+APP deaktivieren"
+          },
+          {
+            "value": "0x0022",
+            "label": "Tastatursperre"
+          },
+          {
+            "value": "0x0023",
+            "label": "Copilot-Taste"
+          },
+          {
+            "value": "0x0024",
+            "label": "Lichtleiste umschalten"
+          },
+          {
+            "value": "0x0025",
+            "label": "Lichtleistenzyklus"
+          },
+          {
+            "value": "0x0026",
+            "label": "Lichtleistenmodus +"
+          },
+          {
+            "value": "0x0027",
+            "label": "Lichtleistenmodus -"
+          },
+          {
+            "value": "0x0028",
+            "label": "Lichtleistenhelligkeit Zyklus"
+          },
+          {
+            "value": "0x0029",
+            "label": "Lichtleistenhelligkeit +"
+          },
+          {
+            "value": "0x002A",
+            "label": "Lichtleistenhelligkeit -"
+          },
+          {
+            "value": "0x002B",
+            "label": "Lichtleistengeschwindigkeit Zyklus"
+          },
+          {
+            "value": "0x002C",
+            "label": "Lichtleistengeschwindigkeit +"
+          },
+          {
+            "value": "0x002D",
+            "label": "Lichtleistengeschwindigkeit -"
+          },
+          {
+            "value": "0x002E",
+            "label": "Lichtleistenhelligkeit Zyklus"
+          },
+          {
+            "value": "0x002F",
+            "label": "WIN deaktivieren"
+          },
+          {
+            "value": "0x0030",
+            "label": "Lichtleistenhelligkeit -"
+          },
+          {
+            "value": "0x0031",
+            "label": "Beleuchtungsmodus -"
+          }
+        ]
+      },
+      {
+        "type": "0x06",
+        "children": [
+          {
+            "value": "0x01",
+            "label": "FN"
+          },
+          {
+            "value": "0x02",
+            "label": "MacFn"
+          },
+          {
+            "value": "0x03",
+            "label": "FN2"
+          }
+        ]
+      },
+      {
+        "type": "0x09",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "Sequenz 1"
+          },
+          {
+            "value": "0x0002",
+            "label": "Sequenz 2"
+          },
+          {
+            "value": "0x0003",
+            "label": "Sequenz 3"
+          },
+          {
+            "value": "0x0004",
+            "label": "Sequenz 4"
+          },
+          {
+            "value": "0x0005",
+            "label": "Sequenz 5"
+          },
+          {
+            "value": "0x0006",
+            "label": "Sequenz 6"
+          },
+          {
+            "value": "0x0007",
+            "label": "Sequenz 7"
+          },
+          {
+            "value": "0x0008",
+            "label": "Sequenz 8"
+          },
+          {
+            "value": "0x0009",
+            "label": "Sequenz 9"
+          },
+          {
+            "value": "0x000A",
+            "label": "Sequenz 10"
+          },
+          {
+            "value": "0x000B",
+            "label": "Sequenz 11"
+          },
+          {
+            "value": "0x000C",
+            "label": "Sequenz 12"
+          },
+          {
+            "value": "0x000D",
+            "label": "Sequenz 13"
+          },
+          {
+            "value": "0x000E",
+            "label": "Sequenz 14"
+          },
+          {
+            "value": "0x000F",
+            "label": "Sequenz 15"
+          },
+          {
+            "value": "0x0010",
+            "label": "Sequenz 16"
+          }
+        ]
+      },
+      {
+        "type": "0x0A",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "Linksklick"
+          },
+          {
+            "value": "0x0002",
+            "label": "Rechtsklick"
+          },
+          {
+            "value": "0x0004",
+            "label": "Mittelklick"
+          },
+          {
+            "value": "0x0010",
+            "label": "Vorwärts"
+          },
+          {
+            "value": "0x0008",
+            "label": "Zurück"
+          }
+        ]
+      }
+    ],
+    "MacroUse": "Makronutzung",
+    "DisableList": [
+      {
+        "option": "Deaktivieren",
+        "value": 0
+      },
+      {
+        "option": "Aktivieren",
+        "value": 2
+      }
+    ],
+  
+    "modeList": [
+      { "option": "Beleuchtungsmodus", "value": 0 },
+      { "option": "Musik-Sync", "value": 1 }
+    ],
+    "colorMode": "Multicolor-Modus",
+  
+    "transcribe": "Aufnahme",
+    
+    "keyboardFirmwareVersion": "Empfänger-Firmware",
+    "FirmwareVersion": "Tastatur-Firmware",
+    "newTips": "Aktuellste Version installiert",
+    "pairHead": "Pairing-Tool",
+    "pair": "Pairing",
+    "rate": "Polling-Rate",
+    "SleepTime": "Ruhemodus",
+    "RestoreDefaultTips": "Werkseinstellungen",
+    "keyboardTabList": [
+      {
+        "option": "Tasten",
+        "value": 1
+      },
+      {
+        "option": "Beleuchtung",
+        "value": 2
+      },
+      {
+        "option": "Makro",
+        "value": 3
+      },
+      {
+        "option": "Einstellungen",
+        "value": 4
+      }
+    ],
+    "DialogUpgradeTips": "Hinweis:\n1. Entfernen Sie das Gerät nicht und aktualisieren Sie die Seite nicht während des Updates. ",
+    "DialogUpgradeOperation": "Firmware-Update-Schritte:\n1. Empfänger abziehen.\n2. \"Update starten\" klicken → Pop-up erscheint\n3.Wählen Sie <span style='color:red; font-weight:bold'>\"Unbekanntes Gerät (3554:F808)\"</span>, klicken Sie auf\"Verbinden\".\n4. Update-Oberfläche öffnen ",
+    "DialogUpgradeUpgrading": "Hallo!\n Um Ihr Nutzungserlebnis zu optimieren, wurden mit diesem Update bekannte Fehler behoben. Aktualisieren Sie die Version wie folgt:\n 1. Trennen Sie vor dem Update das Bluetooth und ziehen Sie den 2,4-G-Hersteller aus.\n 2. Schalten Sie die Tastatur in den kabelgebundenen Modus und verbinden Sie das Type-C-Datenkabel mit dem Computer-Port.\n 3. Klicken Sie auf \"Update starten\", und ein Fenster wird in der oberen linken Ecke des Browsers erscheinen.\n 4. Wählen Sie <span style='color:red;font-weight:bold'>\"Unbekanntes Gerät (3554:F808)\"</span> aus, um in den BOOT-Modus zu gelangen.\n 5. Klicken Sie auf \"Verbinden\", um das Update der Version zu starten.\n 6. Wenn die Fortschrittsleiste bei 100 % steht, war das Update erfolgreich.\n Hinweis: Stellen Sie sicher, dass das Netzwerk Ihres Computers stabil ist. Ziehen Sie keine Geräte ein oder aus. Die Tastatur ist während des Updates nicht verfügbar. Befolgen Sie die Anweisungen. Vielen Dank für Ihre Zusammenarbeit.",
+    "upgradeTips": "Zur Startseite zurückkehren und im kabelgebundenen Modus aktualisieren. \n(Hinweis: Der Empfänger muss vor dem Upgrade getrennt werden!)",
+    "DialogPairTips": "Pairing-Modus:\n1. Auf drahtlosen Modus umstellen\n2. Fn+4 3 Sekunden gedrückt halten (blaue LED blinkt langsam)\n3. Nahe am Empfänger \"Pairing starten\" klicken oder Leertaste drücken ",
+    "pageUpdateTips": "Wenn eine Funktion oder eine Schnittstelle aktualisiert wurde, klicken Sie auf OK Cache löschen und neu laden."
+  }
+}

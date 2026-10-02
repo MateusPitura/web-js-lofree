@@ -1,0 +1,670 @@
+{
+  "Language": "한국어",
+
+  "Welcome": "Control HUB WEB에 오신 것을 환영합니다",
+  "SelectDevice": "여기서 키/센서/조명/매크로 등의 장비 설정이 가능합니다",
+  "SupportBrowser": "Google Chrome, Microsoft Edge, Opera 등 브라우저 지원",
+  "SupportSystem": "Windows, Mac OS, Linux 등 주요 OS 호환",
+  "Connect": "장치 연결 +",
+  "OperationTips": "사용 방법: <장치 연결+> 클릭 → USB 장치 선택 → <연결> 클릭 → 설정 화면 진입",
+  "PairButtonTips": "새 수신기 페어링",
+  "PairTips": "페어링할 수신기 삽입 → 키보드 스페이스바 누름 → 팝업에서 수신기 선택 → 연결 → 페어링 시작",
+  "Version": "버전:",
+  "linkText": "장치 연결 클릭",
+  
+  "ReportRates": [
+    {
+      "value": 8,
+      "rate": 125,
+      "option": "125Hz"
+    },
+    {
+      "value": 4,
+      "rate": 250,
+      "option": "250Hz"
+    },
+    {
+      "value": 2,
+      "rate": 500,
+      "option": "500Hz"
+    },
+    {
+      "value": 1,
+      "rate": 1000,
+      "option": "1000Hz"
+    },
+    {
+      "value": 16,
+      "rate": 2000,
+      "option": "2000Hz"
+    },
+    {
+      "value": 32,
+      "rate": 4000,
+      "option": "4000Hz"
+    },
+    {
+      "value": 64,
+      "rate": 8000,
+      "option": "8000Hz"
+    }
+  ],
+  "Brightness": "밝기",
+  "Speed": "속도",
+
+  "MacroList": "매크로 목록",
+  "KeyList": "키 목록",
+  "StartRecord": "녹화 시작",
+  "StopRecord": "녹화 중지",
+  "AutoDelay": "지연 시간 자동 삽입",
+  "DefaultDelay": "기본 지연 시간",
+  "UntilThisReleased": "키를 놓을 때까지 반복",
+  "UntilAnyPressed": "아무 키나 누를 때까지 반복",
+  "UntilThisPressed": "키를 다시 누를 때까지 반복",
+  "CycleTimes": "반복 횟수",
+  "InsertEvent": "이벤트 삽입",
+  "InsertEventOptions": [
+    {
+      "command": 0,
+      "option": "키 누름"
+    },
+    {
+      "command": 1,
+      "option": "키 뗌"
+    },
+    {
+      "command": 2,
+      "value": "0x040001",
+      "option": "왼쪽 클릭"
+    },
+    {
+      "command": 3,
+      "value": "0x040002",
+      "option": "오른쪽 클릭"
+    },
+    {
+      "command": 4,
+      "value": "0x040004",
+      "option": "가운데 클릭"
+    },
+    {
+      "command": 5,
+      "value": "0x040010",
+      "option": "앞으로"
+    },
+    {
+      "command": 6,
+      "value": "0x040008",
+      "option": "뒤로"
+    }
+  ],
+  "Save": "저장",
+
+  "LightOffTimeOptions": [
+    {
+      "value": 1,
+      "option": "10초"
+    },
+    {
+      "value": 3,
+      "option": "30초"
+    },
+    {
+      "value": 6,
+      "option": "1분"
+    },
+    {
+      "value": 12,
+      "option": "2분"
+    },
+    {
+      "value": 30,
+      "option": "5분"
+    },
+    {
+      "value": 60,
+      "option": "10분"
+    },
+    {
+      "value": 90,
+      "option": "15분"
+    }
+  ],
+  "CustomColor": "사용자 정의 색상",
+  "Preview": "미리보기",
+  "Preset": "프리셋",
+
+  "SelectLanguage": "언어",
+  "DeviceInfo": "장치 정보",
+  "StartPair": "페어링 시작",
+  "Pairing": "페어링 중",
+  "PairSuccess": "페어링 성공",
+  "PairFail": "페어링 실패",
+  "LongDistanceTips": "(장거리 모드: 거리 증가·간섭 방지 능력 향상, 단 작동 전류 증가·사용 시간 감소)",
+
+  "Upgrade": "펌웨어 업데이트",
+  "UpgradeTips": "새 펌웨어 발견. 설정 화면에서 업데이트하거나 메시지를 클릭하세요",
+
+  "Cancel": "취소",
+  "OK": "확인",
+  "DialogDeviceUnsupport": "이 장치는 아직 지원되지 않습니다",
+  "DialogUpdating": "설정 업데이트 중, 잠시 기다려 주세요",
+  "DialogOffline": "무선 장치가 오프라인 상태입니다. 장치를 깨우거나 전원을 켜주세요",
+
+  "DialogExportName": "파일 이름을 입력하세요",
+  "DialogImporting": "설정 전환 중, 잠시 기다려 주세요",
+  "DialogSelectMacroFirst": "매크로를 선택해 주세요",
+  "DialogMaxMacroKey": "매크로 키 개수가 최대에 도달했습니다",
+  "DialogStopRecordFirst": "매크로 녹화를 먼저 중지해 주세요",
+  "DialogSaveMacroFirst": "매크로를 먼저 저장해 주세요",
+  "DialogShortcutKeyTips": "단일 키를 입력해 주세요",
+  "DialogUpgradeTips": "주의사항:\n1. 업데이트 중 장치를 제거하거나 페이지를 새로고침하지 마세요\n2. 업데이트 후 수신기 재페어링이 필요합니다\n3. 마우스는 유선 모드에서 업데이트해야 합니다",
+  "DialogUpgradeOperation": "업데이트 단계:\n1. Enter 키 누름 → 팝업 표시\n2. TAB/↑ 키로 장치 선택\n3. Enter 키로 업데이트 시작",
+  "DialogUpgradeUpgrading": "펌웨어 업데이트 중\n주의: 업데이트 중 장치를 분리하지 마세요",
+  "DialogUpgradeRead": "확인했습니다",
+  "DialogUpgradeStart": "업그레이드를 시작합니다",
+  "DialogUpgradeSuccess": "업데이트 성공",
+  "DialogUpgradeSuccessTips": "장치 업데이트 완료",
+  "DialogUpgradeFail": "업데이트 실패",
+  "DialogUpgradeFirst": "업데이트 실패한 장치가 있습니다. 계속하지 않으면 사용 불가능할 수 있습니다",
+
+  "keyboard": {
+    "NewConfiguration": "새 프로필 생성",
+    "RestoreDefault": "기본값 복원",
+    "isRestoreDefault": "기본 설정으로 복원하시겠습니까?",
+    "SelectButton": "키를 먼저 선택해 주세요",
+    "seleConfigTips": "구성을 전환하시겠습니까?",
+    "deleteConfigTips": "현재 구성을 삭제하시겠습니까?",
+    "sameTips": "동일한 이름의 구성 항목이 이미 존재합니다!",
+    "default": "기본값:",
+    "current": "현재:",
+    "macroHead": "매크로 이름",
+    "action": "동작",
+    "FunctionList": [
+      {
+        "option": "기본 키",
+        "value": 1
+      },
+      {
+        "option": "멀티미디어",
+        "value": 2
+      },
+      {
+        "option": "매크로 사용",
+        "value": 3
+      },
+      {
+        "option": "비활성화",
+        "value": 4
+      }
+    ],
+    "keyboardKeyfunctions": [
+      {
+        "type": "0x00",
+        "value": "0x00",
+        "label": "비활성화"
+      },
+      {
+        "type": "0x03",
+        "children": [
+          {
+            "value": "0x0183",
+            "label": "플레이어"
+          },
+          {
+            "value": "0x00CD",
+            "label": "재생/일시정지"
+          },
+          {
+            "value": "0x00B5",
+            "label": "다음"
+          },
+          {
+            "value": "0x00B6",
+            "label": "이전"
+          },
+          {
+            "value": "0x00B7",
+            "label": "정지"
+          },
+          {
+            "value": "0x00E2",
+            "label": "음소거"
+          },
+          {
+            "value": "0x00E9",
+            "label": "볼륨+"
+          },
+          {
+            "value": "0x00EA",
+            "label": "볼륨-"
+          },
+          {
+            "value": "0x018A",
+            "label": "이메일"
+          },
+          {
+            "value": "0x0192",
+            "label": "계산기"
+          },
+          {
+            "value": "0x0194",
+            "label": "내 컴퓨터"
+          },
+          {
+            "value": "0x0223",
+            "label": "홈"
+          },
+          {
+            "value": "0x0221",
+            "label": "검색"
+          },
+          {
+            "value": "0x0225",
+            "label": "앞으로"
+          },
+          {
+            "value": "0x0224",
+            "label": "뒤로"
+          },
+          {
+            "value": "0x0226",
+            "label": "중지"
+          },
+          {
+            "value": "0x0227",
+            "label": "새로고침"
+          },
+          {
+            "value": "0x022A",
+            "label": "즐겨찾기"
+          },
+          {
+            "value": "0x0070",
+            "label": "밝기-"
+          },
+          {
+            "value": "0x006F",
+            "label": "밝기+"
+          },
+          {
+            "value": "0x02A0",
+            "label": "메뉴 검색"
+          }
+        ]
+      },
+      {
+        "type": "0x05",
+        "children": [
+          {
+            "value": "0x0017",
+            "label": "초기화"
+          },
+          {
+            "value": "0x0000",
+            "label": "블루투스 1"
+          },
+          {
+            "value": "0x0001",
+            "label": "블루투스 2"
+          },
+          {
+            "value": "0x0002",
+            "label": "블루투스 3"
+          },
+          {
+            "value": "0x0003",
+            "label": "2.4G"
+          },
+          {
+            "value": "0x0004",
+            "label": "조명 모드+"
+          },
+          {
+            "value": "0x0005",
+            "label": "조명 모드+"
+          },
+          {
+            "value": "0x0006",
+            "label": "조명 모드-"
+          },
+          {
+            "value": "0x0007",
+            "label": "색상 순환"
+          },
+          {
+            "value": "0x0008",
+            "label": "색상+"
+          },
+          {
+            "value": "0x0009",
+            "label": "색상-"
+          },
+          {
+            "value": "0x000A",
+            "label": ""
+          },
+          {
+            "value": "0x000B",
+            "label": "속도 순환"
+          },
+          {
+            "value": "0x000C",
+            "label": "속도+"
+          },
+          {
+            "value": "0x000D",
+            "label": "속도-"
+          },
+          {
+            "value": "0x000E",
+            "label": "밝기 순환"
+          },
+          {
+            "value": "0x000F",
+            "label": "밝기+"
+          },
+          {
+            "value": "0x0010",
+            "label": "밝기-"
+          },
+          {
+            "value": "0x0011",
+            "label": "배터리"
+          },
+          {
+            "value": "0x0012",
+            "label": "조명 전환"
+          },
+          {
+            "value": "0x0013",
+            "label": "FN 잠금"
+          },
+          {
+            "value": "0x0014",
+            "label": "블루투스"
+          },
+          {
+            "value": "0x0015",
+            "label": "유선"
+          },
+          {
+            "value": "0x0016",
+            "label": "블루투스 삭제"
+          },
+          {
+            "value": "0x0017",
+            "label": "초기화"
+          },
+          {
+            "value": "0x0018",
+            "label": "Windows"
+          },
+          {
+            "value": "0x0019",
+            "label": "macOS"
+          },
+          {
+            "value": "0x001A",
+            "label": "Android"
+          },
+          {
+            "value": "0x001B",
+            "label": "iOS"
+          },
+          {
+            "value": "0x001C",
+            "label": "ALT+TAB 비활성화"
+          },
+          {
+            "value": "0x001D",
+            "label": "ALT+FN 비활성화"
+          },
+          {
+            "value": "0x001E",
+            "label": "SHIFT+TAB 비활성화"
+          },
+          {
+            "value": "0x001F",
+            "label": "WIN 키 비활성화"
+          },
+          {
+            "value": "0x0020",
+            "label": "매트릭스 조명"
+          },
+          {
+            "value": "0x0021",
+            "label": "WIN+APP 비활성화"
+          },
+          {
+            "value": "0x0022",
+            "label": "키보드 잠금"
+          },
+          {
+            "value": "0x0023",
+            "label": "Copilot 키"
+          },
+          {
+            "value": "0x0024",
+            "label": "라이트 바 전환"
+          },
+          {
+            "value": "0x0025",
+            "label": "라이트 바 순환"
+          },
+          {
+            "value": "0x0026",
+            "label": "라이트 바 모드+"
+          },
+          {
+            "value": "0x0027",
+            "label": "라이트 바 모드-"
+          },
+          {
+            "value": "0x0028",
+            "label": "라이트 바 밝기 순환"
+          },
+          {
+            "value": "0x0029",
+            "label": "라이트 바 밝기+"
+          },
+          {
+            "value": "0x002A",
+            "label": "라이트 바 밝기-"
+          },
+          {
+            "value": "0x002B",
+            "label": "라이트 바 속도 순환"
+          },
+          {
+            "value": "0x002C",
+            "label": "라이트 바 속도+"
+          },
+          {
+            "value": "0x002D",
+            "label": "라이트 바 속도-"
+          },
+          {
+            "value": "0x002E",
+            "label": "라이트 바 밝기 순환"
+          },
+          {
+            "value": "0x002F",
+            "label": "WIN 키 비활성화"
+          },
+          {
+            "value": "0x0030",
+            "label": "라이트 바 밝기-"
+          },
+          {
+            "value": "0x0031",
+            "label": "조명 모드-"
+          }
+        ]
+      },
+      {
+        "type": "0x06",
+        "children": [
+          {
+            "value": "0x01",
+            "label": "FN"
+          },
+          {
+            "value": "0x02",
+            "label": "MacFn"
+          },
+          {
+            "value": "0x03",
+            "label": "FN2"
+          }
+        ]
+      },
+      {
+        "type": "0x09",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "시퀀스 1"
+          },
+          {
+            "value": "0x0002",
+            "label": "시퀀스 2"
+          },
+          {
+            "value": "0x0003",
+            "label": "시퀀스 3"
+          },
+          {
+            "value": "0x0004",
+            "label": "시퀀스 4"
+          },
+          {
+            "value": "0x0005",
+            "label": "시퀀스 5"
+          },
+          {
+            "value": "0x0006",
+            "label": "시퀀스 6"
+          },
+          {
+            "value": "0x0007",
+            "label": "시퀀스 7"
+          },
+          {
+            "value": "0x0008",
+            "label": "시퀀스 8"
+          },
+          {
+            "value": "0x0009",
+            "label": "시퀀스 9"
+          },
+          {
+            "value": "0x000A",
+            "label": "시퀀스 10"
+          },
+          {
+            "value": "0x000B",
+            "label": "시퀀스 11"
+          },
+          {
+            "value": "0x000C",
+            "label": "시퀀스 12"
+          },
+          {
+            "value": "0x000D",
+            "label": "시퀀스 13"
+          },
+          {
+            "value": "0x000E",
+            "label": "시퀀스 14"
+          },
+          {
+            "value": "0x000F",
+            "label": "시퀀스 15"
+          },
+          {
+            "value": "0x0010",
+            "label": "시퀀스 16"
+          }
+        ]
+      },
+      {
+        "type": "0x0A",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "왼쪽 클릭"
+          },
+          {
+            "value": "0x0002",
+            "label": "오른쪽 클릭"
+          },
+          {
+            "value": "0x0004",
+            "label": "가운데 클릭"
+          },
+          {
+            "value": "0x0010",
+            "label": "앞으로"
+          },
+          {
+            "value": "0x0008",
+            "label": "뒤로"
+          }
+        ]
+      }
+    ],
+    "MacroUse": "매크로 사용",
+    "DisableList": [
+      {
+        "option": "비활성화",
+        "value": 0
+      },
+      {
+        "option": "활성화",
+        "value": 2
+      }
+    ],
+
+    "modeList": [
+      { "option": "조명 모드", "value": 0 },
+      { "option": "음악 싱크", "value": 1 }
+    ],
+    "colorMode": "멀티 컬러 모드",
+
+    "transcribe": "녹화",
+    
+    "keyboardFirmwareVersion": "수신기 펌웨어",
+    "FirmwareVersion": "키보드 펌웨어",
+    "newTips": "최신 버전입니다",
+    "pairHead": "페어링 도구",
+    "pair": "페어링",
+    "rate": "폴링 레이트",
+    "SleepTime": "슬립 시간",
+    "RestoreDefaultTips": "공장 초기화",
+    "keyboardTabList": [
+      {
+        "option": "키",
+        "value": 1
+      },
+      {
+        "option": "조명",
+        "value": 2
+      },
+      {
+        "option": "매크로",
+        "value": 3
+      },
+      {
+        "option": "설정",
+        "value": 4
+      }
+    ],
+    "DialogUpgradeTips": "주의사항:\n1. 업데이트 중 장치를 제거하거나 페이지를 새로고침하지 마세요",
+    "DialogUpgradeOperation": "업데이트 단계:\n1.업그레이드 중에 수신기를 먼저 뽑으십시오.\n2. \"업데이트 시작\" 클릭\n3.<span style='color:red;font-weight:bold'>알 수 없는 장치 (3554: F808)</span>를 선택하고 연결을 클릭합니다.\n4. 업데이트 화면 진입",
+    "DialogUpgradeUpgrading": "안녕하세요!\n 사용자 경험을 최적화하기 위해 이번 업그레이드에서는 알려진 버그를 수정했습니다. 다음 단계에 따라 버전을 업데이트하십시오.\n 1. 업그레이드 전에 블루투스를 끊고 2.4G 수신기를 뽑습니다.\n 2. 키보드를 유선 모드로 전환하고 Type-C 데이터 케이블을 컴퓨터 포트에 연결합니다.\n 3. \"업그레이드 시작\"을 클릭하면 브라우저의 왼쪽 상단에 창이 팝업됩니다.\n 4. <span style='color:red;font-weight:bold'>\"미확인 장치(3554:F808)\"</span>를 선택하여 BOOT에 들어갑니다.\n 5. \"연결\"을 클릭하여 버전 업데이트를 시작합니다.\n 6. 진행률 막대가 100%에 도달하면 업그rade가 성공입니다.\n 주의: 컴퓨터 네트워크가 안정되어 있는지 확인하십시오. 기기의 연결 및 분리를 하지 마십시오. 업그레이드 중에는 키보드를 사용할 수 없습니다. 안내에 따라 작업하십시오. 협조해 주셔서 감사합니다.",
+    "upgradeTips": "홈 화면으로 나가 유선 모드로 업데이트하세요 \n(참고: 업그레이드하기 전에 수신기를 뽑아야 합니다!)",
+    "DialogPairTips": "페어링 모드:\n1. 무선 모드로 전환\n2. Fn+4 3초간 길게 누름(파란 LED 깜박임)\n3. 수신기 근처에서 \"페어링 시작\" 클릭 또는 스페이스바 누름",
+    "pageUpdateTips": "기능 또는 인터페이스 업데이트가 감지되었으면 확인을 클릭하여 캐시를 지우고 다시 로드하십시오."
+  }
+}

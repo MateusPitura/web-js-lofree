@@ -1,0 +1,670 @@
+{
+  "Language": "Français",
+
+  "Welcome": "Bienvenue sur Control HUB WEB",
+  "SelectDevice": "Ici, vous pouvez configurer votre équipement, y compris les touches, capteurs, lumières, macros et autres paramètres.",
+  "SupportBrowser": "Pris en charge par les navigateurs Google Chrome, Microsoft Edge, Opera, etc.",
+  "SupportSystem": "Compatible avec les systèmes d'exploitation principaux : Windows, Mac OS, Linux, etc.",
+  "Connect": "Connecter un appareil +",
+  "OperationTips": "Instructions : Cliquez sur <Connecter un appareil+> → Sélectionnez un appareil USB → Cliquez sur <Connecter> → Accédez à l'interface de configuration.",
+  "PairButtonTips": "Appairage du nouveau récepteur",
+  "PairTips": "Insérez le récepteur à appairer → Appuyez sur la barre d'espace du clavier → Sélectionnez le récepteur dans la fenêtre contextuelle → Connecter → Commencer l'appairage.",
+  "Version": "Version :",
+  "linkText":"Cliquez pour connecter l'appareil",
+  
+  "ReportRates": [
+    {
+      "value": 8,
+      "rate": 125,
+      "option": "125Hz"
+    },
+    {
+      "value": 4,
+      "rate": 250,
+      "option": "250Hz"
+    },
+    {
+      "value": 2,
+      "rate": 500,
+      "option": "500Hz"
+    },
+    {
+      "value": 1,
+      "rate": 1000,
+      "option": "1000Hz"
+    },
+    {
+      "value": 16,
+      "rate": 2000,
+      "option": "2000Hz"
+    },
+    {
+      "value": 32,
+      "rate": 4000,
+      "option": "4000Hz"
+    },
+    {
+      "value": 64,
+      "rate": 8000,
+      "option": "8000Hz"
+    }
+  ],
+  "Brightness": "Luminosité",
+  "Speed": "Vitesse",
+
+  "MacroList": "Liste de macros",
+  "KeyList": "Liste de touches",
+  "StartRecord": "Commencer l'enregistrement",
+  "StopRecord": "Arrêter l'enregistrement",
+  "AutoDelay": "Insérer automatiquement un délai",
+  "DefaultDelay": "Délai par défaut",
+  "UntilThisReleased": "Boucler jusqu'à ce que cette touche soit relâchée",
+  "UntilAnyPressed": "Boucler jusqu'à ce qu'une touche soit pressée",
+  "UntilThisPressed": "Boucler jusqu'à ce que cette touche soit pressée à nouveau",
+  "CycleTimes": "Nombre de cycles",
+  "InsertEvent": "Insérer un événement",
+  "InsertEventOptions": [
+    {
+      "command": 0,
+      "option": "Touche enfoncée"
+    },
+    {
+      "command": 1,
+      "option": "Touche relâchée"
+    },
+    {
+      "command": 2,
+      "value": "0x040001",
+      "option": "Bouton gauche"
+    },
+    {
+      "command": 3,
+      "value": "0x040002",
+      "option": "Bouton droit"
+    },
+    {
+      "command": 4,
+      "value": "0x040004",
+      "option": "Bouton central"
+    },
+    {
+      "command": 5,
+      "value": "0x040010",
+      "option": "Bouton avant"
+    },
+    {
+      "command": 6,
+      "value": "0x040008",
+      "option": "Bouton arrière"
+    }
+  ],
+  "Save": "Enregistrer",
+
+  "LightOffTimeOptions": [
+    {
+      "value": 1,
+      "option": "10 secondes"
+    },
+    {
+      "value": 3,
+      "option": "30 secondes"
+    },
+    {
+      "value": 6,
+      "option": "1 minute"
+    },
+    {
+      "value": 12,
+      "option": "2 minutes"
+    },
+    {
+      "value": 30,
+      "option": "5 minutes"
+    },
+    {
+      "value": 60,
+      "option": "10 minutes"
+    },
+    {
+      "value": 90,
+      "option": "15 minutes"
+    }
+  ],
+  "CustomColor": "Couleur personnalisée",
+  "Preview": "Aperçu",
+  "Preset": "Préréglage",
+
+  "SelectLanguage": "Langue",
+  "DeviceInfo": "Informations sur l'appareil",
+  "StartPair": "Commencer l'appairage",
+  "Pairing": "Appairage en cours",
+  "PairSuccess": "Appairage réussi",
+  "PairFail": "Échec de l'appairage",
+  "LongDistanceTips": "(En mode longue distance, la portée est plus grande, la résistance aux interférences est meilleure, mais la consommation de courant augmente et la durée d'utilisation diminue.)",
+
+  "Upgrade": "Mise à jour du firmware",
+  "UpgradeTips": "Nouveau firmware détecté, veuillez accéder à l'interface des paramètres pour mettre à jour ou cliquez sur ce message pour y accéder.",
+
+  "Cancel": "Annuler",
+  "OK": "Confirmer",
+  "DialogDeviceUnsupport": "Cet appareil n'est pas encore pris en charge",
+  "DialogUpdating": "Veuillez patienter, les paramètres sont en cours de mise à jour",
+  "DialogOffline": "L'appareil sans fil est hors ligne, veuillez d'abord le réveiller ou allumer l'alimentation.",
+
+  "DialogExportName": "Veuillez saisir le nom du fichier",
+  "DialogImporting":"Changement de configuration en cours, veuillez patienter",
+  "DialogSelectMacroFirst": "Veuillez d'abord sélectionner une macro",
+  "DialogMaxMacroKey": "Le nombre maximal de touches de macro a été atteint",
+  "DialogStopRecordFirst": "Veuillez d'abord arrêter l'enregistrement de la macro",
+  "DialogSaveMacroFirst": "Veuillez d'abord enregistrer la macro",
+  "DialogShortcutKeyTips": "Veuillez saisir une seule touche",
+  "DialogUpgradeTips": "Conseil chaleureux: \n1.pendant la mise à niveau, ne supprimez pas l'appareil ou n'actualisez pas la page Web, sinon la mise à niveau échouera et l'appareil ne fonctionnera pas correctement. \n2. Une fois la mise à niveau du firmware terminée, l'opération de réappariement du récepteur est nécessaire, sinon l'appareil ne fonctionnera pas correctement. \n3. La souris doit terminer la mise à niveau en mode filaire.",
+  "DialogUpgradeOperation": "Veuillez suivre les étapes ci - dessous pour effectuer la mise à niveau du firmware: \n1. Appuyez sur la touche entrée du clavier (entrée) et une boîte contextuelle apparaît dans le coin supérieur gauche du navigateur. \n2. Appuyez sur le clavier \"tab\", \"touche de direction supérieure ↑\" pour sélectionner l'appareil. \n3. Une fois l'appareil sélectionné, appuyez à nouveau sur la touche Entrée (entrée) pour la mise à niveau du firmware.",
+  "DialogUpgradeUpgrading": "L'appareil est en cours de mise à jour \nRemarque : Pendant la mise à jour, ne branchez ni ne débranchez l'appareil pour éviter un échec de la mise à jour.",
+  "DialogUpgradeRead": "J'ai lu",
+  "DialogUpgradeStart": "Commencez la mise à niveau",
+  "DialogUpgradeSuccess": "Mise à jour réussie",
+  "DialogUpgradeSuccessTips": "Mise à jour de l'appareil terminée\n",
+  "DialogUpgradeFail": "Échec de la mise à jour",
+  "DialogUpgradeFirst": "Certains appareils ont échoué à la mise à jour, veuillez continuer la mise à jour, sinon les appareils pourraient ne pas fonctionner.",
+
+  "keyboard": {
+    "NewConfiguration": "Créer un nouveau profil",
+    "RestoreDefault":"Restaurer les paramètres par défaut",
+    "isRestoreDefault": "Voulez-vous restaurer les paramètres par défaut ?",
+    "SelectButton":"Veuillez d'abord sélectionner une touche",
+    "seleConfigTips":"Voulez-vous changer de configuration ?",
+    "deleteConfigTips":"Voulez-vous supprimer la configuration actuelle ?",
+    "sameTips":"Un élément de configuration du même nom existe déjà !",
+    "default":"Par défaut :",
+    "current":"Actuel :",
+    "macroHead":"Nom de la macro",
+    "action": "Action",
+    "FunctionList": [
+      {
+        "option": "Touches de base",
+        "value": 1
+      },
+      {
+        "option": "Multimédia",
+        "value": 2
+      },
+      {
+        "option": "Utilisation de macro",
+        "value": 3
+      },
+      {
+        "option": "Désactivé",
+        "value": 4
+      }
+    ],
+    "keyboardKeyfunctions": [
+      {
+        "type": "0x00",
+        "value": "0x00",
+        "label": "Désactivé"
+      },
+      {
+        "type": "0x03",
+        "children": [
+          {
+            "value": "0x0183",
+            "label": "Lecteur"
+          },
+          {
+            "value": "0x00CD",
+            "label": "Lecture/Pause"
+          },
+          {
+            "value": "0x00B5",
+            "label": "Piste suivante"
+          },
+          {
+            "value": "0x00B6",
+            "label": "Piste précédente"
+          },
+          {
+            "value": "0x00B7",
+            "label": "Arrêter la lecture"
+          },
+          {
+            "value": "0x00E2",
+            "label": "Muet"
+          },
+          {
+            "value": "0x00E9",
+            "label": "Augmenter le volume"
+          },
+          {
+            "value": "0x00EA",
+            "label": "Diminuer le volume"
+          },
+          {
+            "value": "0x018A",
+            "label": "E-mail"
+          },
+          {
+            "value": "0x0192",
+            "label": "Calculatrice"
+          },
+          {
+            "value": "0x0194",
+            "label": "Mon ordinateur"
+          },
+          {
+            "value": "0x0223",
+            "label": "Accueil"
+          },
+          {
+            "value": "0x0221",
+            "label": "Recherche"
+          },
+          {
+            "value": "0x0225",
+            "label": "Avancer dans la page web"
+          },
+          {
+            "value": "0x0224",
+            "label": "Reculer dans la page web"
+          },
+          {
+            "value": "0x0226",
+            "label": "Arrêter la page web"
+          },
+          {
+            "value": "0x0227",
+            "label": "Actualiser"
+          },
+          {
+            "value": "0x022A",
+            "label": "Favoris"
+          },
+          {
+            "value": "0x0070",
+            "label": "Luminosité -"
+          },
+          {
+            "value": "0x006F",
+            "label": "Luminosité +"
+          },
+          {
+            "value": "0x02A0",
+            "label": "Recherche dans la barre de menu"
+          }
+        ]
+      },
+      {
+        "type": "0x05",
+        "children": [
+          {
+            "value": "0x0017",
+            "label": "Réinitialiser aux paramètres d'usine"
+          },
+          {
+            "value": "0x0000",
+            "label": "Appareil Bluetooth 1"
+          },
+          {
+            "value": "0x0001",
+            "label": "Appareil Bluetooth 2"
+          },
+          {
+            "value": "0x0002",
+            "label": "Appareil Bluetooth 3"
+          },
+          {
+            "value": "0x0003",
+            "label": "Canal 2.4G"
+          },
+          {
+            "value": "0x0004",
+            "label": "Cycle des modes d'éclairage +"
+          },
+          {
+            "value": "0x0005",
+            "label": "Mode d'éclairage +"
+          },
+          {
+            "value": "0x0006",
+            "label": "Mode d'éclairage -"
+          },
+          {
+            "value": "0x0007",
+            "label": "Cycle des couleurs d'éclairage"
+          },
+          {
+            "value": "0x0008",
+            "label": "Couleur d'éclairage +"
+          },
+          {
+            "value": "0x0009",
+            "label": "Couleur d'éclairage -"
+          },
+          {
+            "value": "0x000A",
+            "label": ""
+          },
+          {
+            "value": "0x000B",
+            "label": "Cycle de vitesse d'éclairage"
+          },
+          {
+            "value": "0x000C",
+            "label": "Vitesse d'éclairage +"
+          },
+          {
+            "value": "0x000D",
+            "label": "Vitesse d'éclairage -"
+          },
+          {
+            "value": "0x000E",
+            "label": "Cycle de luminosité d'éclairage"
+          },
+          {
+            "value": "0x000F",
+            "label": "Luminosité d'éclairage +"
+          },
+          {
+            "value": "0x0010",
+            "label": "Luminosité d'éclairage -"
+          },
+          {
+            "value": "0x0011",
+            "label": "Voir la batterie"
+          },
+          {
+            "value": "0x0012",
+            "label": "Interrupteur d'éclairage"
+          },
+          {
+            "value": "0x0013",
+            "label": "Verrouillage FN"
+          },
+          {
+            "value": "0x0014",
+            "label": "Canal Bluetooth"
+          },
+          {
+            "value": "0x0015",
+            "label": "Canal filaire"
+          },
+          {
+            "value": "0x0016",
+            "label": "Effacer les enregistrements Bluetooth"
+          },
+          {
+            "value": "0x0017",
+            "label": "Restaurer les paramètres initiaux"
+          },
+          {
+            "value": "0x0018",
+            "label": "Système Windows"
+          },
+          {
+            "value": "0x0019",
+            "label": "Système Mac"
+          },
+          {
+            "value": "0x001A",
+            "label": "Système Android"
+          },
+          {
+            "value": "0x001B",
+            "label": "Système iOS"
+          },
+          {
+            "value": "0x001C",
+            "label": "Désactiver la touche ALT+TAB"
+          },
+          {
+            "value": "0x001D",
+            "label": "Désactiver la touche ALT+FN"
+          },
+          {
+            "value": "0x001E",
+            "label": "Désactiver la touche SHIFT+TAB"
+          },
+          {
+            "value": "0x001F",
+            "label": "Désactiver la touche WIN"
+          },
+          {
+            "value": "0x0020",
+            "label": "Autres lumières constantes de la matrice"
+          },
+          {
+            "value": "0x0021",
+            "label": "Désactiver la touche WIN+APP"
+          },
+          {
+            "value": "0x0022",
+            "label": "Verrouillage complet du clavier"
+          },
+          {
+            "value": "0x0023",
+            "label": "Touche Copilot de Windows"
+          },
+          {
+            "value": "0x0024",
+            "label": "Interrupteur de mode de bande lumineuse"
+          },
+          {
+            "value": "0x0025",
+            "label": "Cycle de mode de bande lumineuse"
+          },
+          {
+            "value": "0x0026",
+            "label": "Mode de bande lumineuse +"
+          },
+          {
+            "value": "0x0027",
+            "label": "Mode de bande lumineuse -"
+          },
+          {
+            "value": "0x0028",
+            "label": "Cycle de luminosité de bande lumineuse"
+          },
+          {
+            "value": "0x0029",
+            "label": "Luminosité de bande lumineuse +"
+          },
+          {
+            "value": "0x002A",
+            "label": "Luminosité de bande lumineuse -"
+          },
+          {
+            "value": "0x002B",
+            "label": "Cycle de vitesse de bande lumineuse"
+          },
+          {
+            "value": "0x002C",
+            "label": "Vitesse de bande lumineuse +"
+          },
+          {
+            "value": "0x002D",
+            "label": "Vitesse de bande lumineuse -"
+          },
+          {
+            "value": "0x002E",
+            "label": "Cycle de luminosité de bande lumineuse"
+          },
+          {
+            "value": "0x002F",
+            "label": "Désactiver la touche WIN"
+          },
+          {
+            "value": "0x0030",
+            "label": "Luminosité de bande lumineuse -"
+          },
+          {
+            "value": "0x0031",
+            "label": "Cycle de mode d'éclairage -"
+          }
+        ]
+      },
+      {
+        "type": "0x06",
+        "children": [
+          {
+            "value": "0x01",
+            "label": "FN"
+          },
+          {
+            "value": "0x02",
+            "label": "MacFn"
+          },
+          {
+            "value": "0x03",
+            "label": "FN2"
+          }
+        ]
+      },
+      {
+        "type": "0x09",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "Touche de séquence 1"
+          },
+          {
+            "value": "0x0002",
+            "label": "Touche de séquence 2"
+          },
+          {
+            "value": "0x0003",
+            "label": "Touche de séquence 3"
+          },
+          {
+            "value": "0x0004",
+            "label": "Touche de séquence 4"
+          },
+          {
+            "value": "0x0005",
+            "label": "Touche de séquence 5"
+          },
+          {
+            "value": "0x0006",
+            "label": "Touche de séquence 6"
+          },
+          {
+            "value": "0x0007",
+            "label": "Touche de séquence 7"
+          },
+          {
+            "value": "0x0008",
+            "label": "Touche de séquence 8"
+          },
+          {
+            "value": "0x0009",
+            "label": "Touche de séquence 9"
+          },
+          {
+            "value": "0x000A",
+            "label": "Touche de séquence 10"
+          },
+          {
+            "value": "0x000B",
+            "label": "Touche de séquence 11"
+          },
+          {
+            "value": "0x000C",
+            "label": "Touche de séquence 12"
+          },
+          {
+            "value": "0x000D",
+            "label": "Touche de séquence 13"
+          },
+          {
+            "value": "0x000E",
+            "label": "Touche de séquence 14"
+          },
+          {
+            "value": "0x000F",
+            "label": "Touche de séquence 15"
+          },
+          {
+            "value": "0x0010",
+            "label": "Touche de séquence 16"
+          }
+        ]
+      },
+      {
+        "type": "0x0A",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "Bouton gauche"
+          },
+          {
+            "value": "0x0002",
+            "label": "Bouton droit"
+          },
+          {
+            "value": "0x0004",
+            "label": "Bouton central"
+          },
+          {
+            "value": "0x0010",
+            "label": "Bouton avant"
+          },
+          {
+            "value": "0x0008",
+            "label": "Bouton arrière"
+          }
+        ]
+      }
+    ],
+    "MacroUse": "Utilisation de macro",
+    "DisableList": [
+      {
+        "option": "Désactivé",
+        "value": 0
+      },
+      {
+        "option": "Activé",
+        "value": 2
+      }
+    ],
+
+    "modeList": [
+      { "option": "Mode d'éclairage", "value": 0 },
+      { "option": "Rythme musical", "value": 1 }
+    ],
+    "colorMode": "Mode de couleur mixte",
+
+    "transcribe": "Enregistrement",
+    
+    "keyboardFirmwareVersion": "Version du firmware du récepteur",
+    "FirmwareVersion": "Version du firmware du clavier",
+    "newTips": "Version la plus récente",
+    "pairHead":"Outil d'appairage",
+    "pair":"Appairage",
+    "rate": "Taux de rapport",
+    "SleepTime": "Temps de veille",
+    "RestoreDefaultTips": "Réinitialiser aux paramètres d'usine",
+    "keyboardTabList": [
+      {
+        "option": "Touche",
+        "value": 1
+      },
+      {
+        "option": "Effet lumineux",
+        "value": 2
+      },
+      {
+        "option": "Macro",
+        "value": 3
+      },
+      {
+        "option": "Paramètres",
+        "value": 4
+      }
+    ],
+    "DialogUpgradeTips": "Remarque : \n1. Pendant la mise à jour, ne retirez pas l'appareil et ne rafraîchissez pas la page, sinon la mise à jour échouera et l'appareil ne fonctionnera pas normalement.",
+    "DialogUpgradeOperation": "Veuillez suivre les étapes ci - dessous pour effectuer la mise à niveau du firmware: \n1.Pendant la mise à niveau, débranchez d'abord le récepteur.\n2. Cliquez sur \"démarrer la mise à niveau\" et une boîte de dialogue apparaît dans le coin supérieur gauche du navigateur. \n3.Sélectionnez <span style='color:red; font-weight: bold'>\"appareil inconnu (3554: f808)\"</span>, appuyez sur \"Connecter\". \n4. Commencez à entrer dans l'interface de mise à niveau.",
+    "DialogUpgradeUpgrading": "Bonjour!\n Pour optimiser votre expérience d'utilisation, cette mise à jour a corrigé les bogues connus. Mettez à jour la version en suivant les étapes suivantes :\n 1. Avant la mise à jour, déconnectez le Bluetooth et débranchez le récepteur 2.4G.\n 2. Mettez le clavier en mode filaire et connectez le câble de données Type-C au port de l'ordinateur.\n 3. Cliquez sur \"Démarrer la mise à jour\" et une fenêtre s'ouvrira dans le coin supérieur gauche du navigateur.\n 4. Sélectionnez <span style='color:red;font-weight:bold'>\"Périphérique inconnu (3554:F808)\"</span> pour entrer dans BOOT.\n 5. Cliquez sur \"Connexion\" pour commencer la mise à jour de la version.\n 6. Lorsque la barre de progression atteint 100 %, la mise à jour est réussie.\n Remarque : Assurez-vous que le réseau de l'ordinateur est stable. Ne branchez ni ne débranchez pas les périphériques. Le clavier ne sera pas utilisable pendant la mise à jour. Suivez les instructions. Merci pour votre collaboration.",
+    "upgradeTips":"Veuillez retourner à la page d'accueil et connecter le mode filaire pour effectuer la mise à jour.\n(Remarque: le récepteur doit être débranché avant la mise à niveau!)",
+    "DialogPairTips":"Veuillez utiliser le clavier pour entrer dans l'état d'appariement (coupez d'abord à la position sans fil, appuyez simultanément sur la combinaison FN + 4 pour appuyer longuement sur 3S jusqu'à ce que le voyant bleu clignote lentement) et à proximité du récepteur appuyez sur \"démarrer l'appariement\" ou appuyez sur la barre d'espace du clavier",
+    "pageUpdateTips":"Une mise à jour de la fonctionnalité ou de l'interface est détectée, appuyez sur OK pour vider le cache et le recharger."
+  }
+}
