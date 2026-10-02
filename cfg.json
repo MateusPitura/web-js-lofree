@@ -42,7 +42,7 @@
     "batteryPolling": true
   },
   "demo": false,
-  "test": false,
+  "test": true,
   "refresh": false,
   "clearData": [
     "deviceInfo",
