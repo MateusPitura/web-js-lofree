@@ -1,0 +1,666 @@
+{
+  "Language": "English",
+
+  "Welcome": "Welcome to Control HUB WEB",
+  "SelectDevice": "Here you can set up your device. Including buttons, sensor, lights and others",
+  "SupportBrowser": "Supports Google Chrome,Microsoft Edge,Opera,and other browers",
+  "SupportSystem": "Supports Windows,Mac OS,Linux and other operation systems",
+  "Connect": "Connect device +",
+  "OperationTips": "How to use: Click <Connect device> →Select USB device →Click <Connect> →Enter into device control homepage",
+  "PairButtonTips": "Pair new receiver",
+  "PairTips": "Plug in new receiver →Click space key →In the pop-up window,select the receiver →Conect →Pair",
+  "Version": "Version:",
+  "linkText":"Connect Device",
+
+  "ReportRates": [
+    {
+      "value": 8,
+      "rate": 125,
+      "option": "125Hz"
+    },
+    {
+      "value": 4,
+      "rate": 250,
+      "option": "250Hz"
+    },
+    {
+      "value": 2,
+      "rate": 500,
+      "option": "500Hz"
+    },
+    {
+      "value": 1,
+      "rate": 1000,
+      "option": "1000Hz"
+    },
+    {
+      "value": 16,
+      "rate": 2000,
+      "option": "2000Hz"
+    },
+    {
+      "value": 32,
+      "rate": 4000,
+      "option": "4000Hz"
+    },
+    {
+      "value": 64,
+      "rate": 8000,
+      "option": "8000Hz"
+    }
+  ],
+  "Brightness": "Brightness",
+  "Speed": "Speed",
+
+  "MacroList": "Macro list",
+  "KeyList": "List of keys",
+  "StartRecord": "Start recording",
+  "StopRecord": "Stop recording",
+  "AutoDelay": "Auto insert delay",
+  "DefaultDelay": "Default delay",
+  "UntilThisReleased": "Cycle until the button is released",
+  "UntilAnyPressed": "Cycle until any button is pressed",
+  "UntilThisPressed": "Cycle until the button is pressed",
+  "CycleTimes": "Cycle Times",
+  "InsertEvent": "Insert command",
+  "InsertEventOptions": [
+    {
+      "command": 0,
+      "option": "Press"
+    },
+    {
+      "command": 1,
+      "option": "Release"
+    },
+    {
+      "command": 2,
+      "value": "0x040001",
+      "option": "Left Click"
+    },
+    {
+      "command": 3,
+      "value": "0x040002",
+      "option": "Right Click"
+    },
+    {
+      "command": 4,
+      "value": "0x040004",
+      "option": "Middle Click"
+    },
+    {
+      "command": 5,
+      "value": "0x040010",
+      "option": "Forward"
+    },
+    {
+      "command": 6,
+      "value": "0x040008",
+      "option": "Backward"
+    }
+  ],
+  "Save": "Save",
+
+  "LightOffTimeOptions": [
+    {
+      "value": 1,
+      "option": "10sec"
+    },
+    {
+      "value": 3,
+      "option": "30sec"
+    },
+    {
+      "value": 6,
+      "option": "1min"
+    },
+    {
+      "value": 12,
+      "option": "2min"
+    },
+    {
+      "value": 30,
+      "option": "5min"
+    },
+    {
+      "value": 60,
+      "option": "10min"
+    },
+    {
+      "value": 90,
+      "option": "15min"
+    }
+  ],
+  "CustomColor": "Custom color",
+  "Preview": "Preview",
+  "Preset": "Preset",
+
+  "SelectLanguage": "Languages",
+  "DeviceInfo": "Device Information",
+  "StartPair": "Start pairing",
+  "Pairing": "Pairing",
+  "PairSuccess": "Success",
+  "PairFail": "Fail",
+  "LongDistanceTips": "(In long-distance mode, when the distance is farther, the anti-interference ability and current power will be stronger, and the battery life will shorten)",
+
+  "Upgrade": "Update",
+  "UpgradeTips": "Found new version,click download now",
+
+  "Cancel": "Cancel",
+  "OK": "OK",
+  "DialogDeviceUnsupport": "This device is not supported",
+  "DialogUpdating": "Please wait,updating",
+  "DialogOffline": "Wireless device offline,please move or power-on your device",
+
+  "DialogExportName": "Please enter the file name",
+  "DialogImporting":"Switching configurations, please wait",
+  "DialogSelectMacroFirst": "Please select a macro",
+  "DialogMaxMacroKey": "Macro Key max number reached",
+  "DialogStopRecordFirst": "Please stop recording macro first",
+  "DialogSaveMacroFirst": "Please save macro first",
+  "DialogShortcutKeyTips": "Please enter keystroke",
+  "DialogUpgradeTips": "Warm Reminder: \n1.1. During the upgrade process, please do not remove the device or refresh the webpage, as this may result in an upgrade failure and the device becoming unusable。\n2.2. After the firmware upgrade is complete, you will need to re-pair the receiver; otherwise, the device will not function properly。\n3.3. The mouse must be in wired mode to complete the upgrade。",
+  "DialogUpgradeOperation": "Please follow the steps below to perform the firmware upgrade:\n1.Press the \"Enter\" key on the keyboard, and a popup will appear in the top-left corner of the browser。\n2.After selecting the device, press the \"Enter\" key again to start the firmware upgrade。",
+  "DialogUpgradeUpgrading": "The device is upgrading\nPlease Note:Do not plug or unplug the device during the upgrade process to avoid upgrade failure",
+  "DialogUpgradeRead": "I have read it",
+  "DialogUpgradeStart": "Start the upgrade",
+  "DialogUpgradeSuccess": "Upgrade Successful",
+  "DialogUpgradeSuccessTips": "Device Upgrade Completed\n",
+  "DialogUpgradeFail": "Upgrade Failed",
+  "DialogUpgradeFirst": "Device upgrade failed. Please continue upgrading; otherwise, it may affect the normal use of the device.",
+
+  "keyboard": {
+    "NewConfiguration": "Create a new profile",
+    "RestoreDefault": "Factory Reset",
+    "isRestoreDefault": "You I need to revert to the default?",
+    "SelectButton": "Please select the button first",
+    "seleConfigTips": "Do you need to restore factory default settings?",
+    "deleteConfigTips": "Do you want to delete the current configuration?",
+    "sameTips": "Let's have the same name and change it to something else!",
+    "default": "Default:",
+    "current": "Current:",
+    "macroHead": "Macro name",
+    "action": "Action",
+    "FunctionList": [
+      {
+        "option": "Basic Buttons",
+        "value": 1
+      },
+      {
+        "option": "Multimedia Buttons",
+        "value": 2
+      },
+      {
+        "option": "Macro-key Settings",
+        "value": 3
+      },
+      {
+        "option": "Disable or Unable",
+        "value": 4
+      }
+    ],
+    "keyboardKeyfunctions": [
+      {
+        "type": "0x00",
+        "value": "0x00",
+        "label": "disable"
+      },
+      {
+        "type": "0x03",
+        "children": [
+          {
+            "value": "0x0183",
+            "label": "Player"
+          },
+          {
+            "value": "0x00CD",
+            "label": "Play/Pause"
+          },
+          {
+            "value": "0x00B5",
+            "label": "Next song"
+          },
+          {
+            "value": "0x00B6",
+            "label": "Previous song"
+          },
+          {
+            "value": "0x00B7",
+            "label": "Stop playing"
+          },
+          {
+            "value": "0x00E2",
+            "label": "mute"
+          },
+          {
+            "value": "0x00E9",
+            "label": "Volume up"
+          },
+          {
+            "value": "0x00EA",
+            "label": "Volume down"
+          },
+          {
+            "value": "0x018A",
+            "label": "mail"
+          },
+          {
+            "value": "0x0192",
+            "label": "calculator"
+          },
+          {
+            "value": "0x0194",
+            "label": "My computer"
+          },
+          {
+            "value": "0x0223",
+            "label": "home page"
+          },
+          {
+            "value": "0x0221",
+            "label": "Search"
+          },
+          {
+            "value": "0x0225",
+            "label": "The page advances"
+          },
+          {
+            "value": "0x0224",
+            "label": "The page goes back"
+          },
+          {
+            "value": "0x0226",
+            "label": "Stop the web page"
+          },
+          {
+            "value": "0x0227",
+            "label": "flushed"
+          },
+          {
+            "value": "0x022A",
+            "label": "Favorites"
+          },
+          {
+            "value": "0x0070",
+            "label": "Brightness-"
+          },
+          {
+            "value": "0x006F",
+            "label": "Brightness+"
+          }
+        ]
+      },
+      {
+        "type": "0x05",
+        "children": [
+          {
+            "value": "0x0017",
+            "label": "Factory reset"
+          },
+          {
+            "value": "0x0000",
+            "label": "BT1"
+          },
+          {
+            "value": "0x0001",
+            "label": "BT2"
+          },
+          {
+            "value": "0x0002",
+            "label": "BT3"
+          },
+          {
+            "value": "0x0003",
+            "label": "2.4G"
+          },
+          {
+            "value": "0x0004",
+            "label": "Light mode cycle+"
+          },
+          {
+            "value": "0x0005",
+            "label": "Light mode+"
+          },
+          {
+            "value": "0x0006",
+            "label": "Light mode-"
+          },
+          {
+            "value": "0x0007",
+            "label": "Light color cycle"
+          },
+          {
+            "value": "0x0008",
+            "label": "Light color+"
+          },
+          {
+            "value": "0x0009",
+            "label": "Light color-"
+          },
+          {
+            "value": "0x000A",
+            "label": ""
+          },
+          {
+            "value": "0x000B",
+            "label": "Light speed cycle"
+          },
+          {
+            "value": "0x000C",
+            "label": "Light speed+"
+          },
+          {
+            "value": "0x000D",
+            "label": "Light speed-"
+          },
+          {
+            "value": "0x000E",
+            "label": "Light brightness cycle"
+          },
+          {
+            "value": "0x000F",
+            "label": "Light brightness+"
+          },
+          {
+            "value": "0x0010",
+            "label": "Light brightness-"
+          },
+          {
+            "value": "0x0011",
+            "label": "Check battery"
+          },
+          {
+            "value": "0x0012",
+            "label": "Light switch"
+          },
+          {
+            "value": "0x0013",
+            "label": "FN Lock"
+          },
+          {
+            "value": "0x0014",
+            "label": "BLE"
+          },
+          {
+            "value": "0x0015",
+            "label": "Wired"
+          },
+          {
+            "value": "0x0016",
+            "label": "Clear BLE record"
+          },
+          {
+            "value": "0x0017",
+            "label": "Restore"
+          },
+          {
+            "value": "0x0018",
+            "label": "windows"
+          },
+          {
+            "value": "0x0019",
+            "label": "mac"
+          },
+          {
+            "value": "0x001A",
+            "label": "android"
+          },
+          {
+            "value": "0x001B",
+            "label": "iOS"
+          },
+          {
+            "value": "0x001C",
+            "label": "Disable ALT+TAB"
+          },
+          {
+            "value": "0x001D",
+            "label": "Disable ALT+FN"
+          },
+          {
+            "value": "0x001E",
+            "label": "Disable SHIFT+TAB"
+          },
+          {
+            "value": "0x001F",
+            "label": "Disable WIN"
+          },
+          {
+            "value": "0x0020",
+            "label": "Other static LED"
+          },
+          {
+            "value": "0x0021",
+            "label": "Disable WIN+APP"
+          },
+          {
+            "value": "0x0022",
+            "label": "Full keyboard lock key"
+          },
+          {
+            "value": "0x0023",
+            "label": "WCopilot(Only Win System)"
+          },
+          {
+            "value": "0x0024",
+            "label": "Light strip switch"
+          },
+          {
+            "value": "0x0025",
+            "label": "Light strip mode cycle"
+          },
+          {
+            "value": "0x0026",
+            "label": "Light strip mode+"
+          },
+          {
+            "value": "0x0027",
+            "label": "Light strip mode-"
+          },
+          {
+            "value": "0x0028",
+            "label": "Light strip brightness cycle"
+          },
+          {
+            "value": "0x0029",
+            "label": "Light strip brightness+"
+          },
+          {
+            "value": "0x002A",
+            "label": "Light strip brightness-"
+          },
+          {
+            "value": "0x002B",
+            "label": "Light strip speed cycle"
+          },
+          {
+            "value": "0x002C",
+            "label": "Light strip speed+"
+          },
+          {
+            "value": "0x002D",
+            "label": "Light strip speed-"
+          },
+          {
+            "value": "0x002E",
+            "label": "Light strip color cycle"
+          },
+          {
+            "value": "0x002F",
+            "label": "Light strip color+"
+          },
+          {
+            "value": "0x0030",
+            "label": "Light strip color-"
+          },
+          {
+            "value": "0x0031",
+            "label": "Light mode cycle-"
+          }
+        ]
+      },
+      {
+        "type": "0x06",
+        "children": [
+          {
+            "value": "0x01",
+            "label": "FN"
+          },
+          {
+            "value": "0x02",
+            "label": "MacFn"
+          },
+          {
+            "value": "0x03",
+            "label": "FN2"
+          }
+        ]
+      },
+      {
+        "type": "0x09",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "Sequence key1"
+          },
+          {
+            "value": "0x0002",
+            "label": "Sequence key2"
+          },
+          {
+            "value": "0x0003",
+            "label": "Sequence key3"
+          },
+          {
+            "value": "0x0004",
+            "label": "Sequence key4"
+          },
+          {
+            "value": "0x0005",
+            "label": "Sequence key5"
+          },
+          {
+            "value": "0x0006",
+            "label": "Sequence key6"
+          },
+          {
+            "value": "0x0007",
+            "label": "Sequence key7"
+          },
+          {
+            "value": "0x0008",
+            "label": "Sequence key8"
+          },
+          {
+            "value": "0x0009",
+            "label": "Sequence key9"
+          },
+          {
+            "value": "0x000A",
+            "label": "Sequence key10"
+          },
+          {
+            "value": "0x000B",
+            "label": "Sequence key11"
+          },
+          {
+            "value": "0x000C",
+            "label": "Sequence key12"
+          },
+          {
+            "value": "0x000D",
+            "label": "Sequence key13"
+          },
+          {
+            "value": "0x000E",
+            "label": "Sequence key14"
+          },
+          {
+            "value": "0x000F",
+            "label": "Sequence key15"
+          },
+          {
+            "value": "0x0010",
+            "label": "Sequence key16"
+          }
+        ]
+      },
+      {
+        "type": "0x0A",
+        "children": [
+          {
+            "value": "0x0001",
+            "label": "Left"
+          },
+          {
+            "value": "0x0002",
+            "label": "Right-click"
+          },
+          {
+            "value": "0x0004",
+            "label": "Middle button"
+          },
+          {
+            "value": "0x0010",
+            "label": "Advance key"
+          },
+          {
+            "value": "0x0008",
+            "label": "Back key"
+          }
+        ]
+      }
+    ],
+    "MacroUse": "Macro usage",
+    "DisableList": [
+      {
+        "option": "disable",
+        "value": 0
+      },
+      {
+        "option": "enable",
+        "value": 2
+      }
+    ],
+
+    "modeList": [
+      { "option": "Light mode", "value": 0 },
+      { "option": "Musical grooves", "value": 1 }
+    ],
+    "colorMode": "Melange mode",
+
+    "transcribe": "Recording",
+
+    "keyboardFirmwareVersion": "Receiver firmware version",
+    "FirmwareVersion": "Keyboard firmware version",
+    "newTips": "Latest version",
+    "pairHead":"2.4GHz Dongle Pairing",
+    "pair":"Pairing",
+    "rate": "Polling Rate",
+    "SleepTime": "Sleep time",
+    "RestoreDefaultTips": "Factory Reset",
+    "keyboardTabList": [
+      {
+        "option": "Key Assignment",
+        "value": 1
+      },
+      {
+        "option": "Lighting Effects",
+        "value": 2
+      },
+      {
+        "option": "Macro Settings",
+        "value": 3
+      },
+      {
+        "option": "Device Settings",
+        "value": 4
+      }
+    ],
+    "DialogUpgradeTips": "Warm reminder: \n1. During the upgrade process, please do not remove the device or refresh the webpage, as this may cause the upgrade to fail and the device may not function properly.",
+    "DialogUpgradeOperation": "Please follow the steps below to upgrade the firmware: \n1.During the upgrade process, please unplug the receiver first.\n2. Click 'Start Upgrade', a pop-up will appear in the top left corner of the browser. \n3.Select<span style='color: red; font-weight: bold'>\"Unknown device (3554: F808)\"</span>, click\"Connect\".\n4. Begin to enter the upgrade interface.",
+    "DialogUpgradeUpgrading": "Hello!\n To optimize your user experience, this upgrade has fixed the known bugs. Please update the version according to the following steps:\n 1. Before upgrading, disconnect the Bluetooth and unplug the 2.4G receiver.\n 2. Switch the keyboard to the wired mode and connect the Type-C data cable to the computer port.\n 3. Click \"Start Upgrade\", and a window will pop up in the upper left corner of the browser.\n 4. Select <span style='color:red;font-weight:bold'>\"Unknown Device (3554:F808)\"</span>to enter BOOT.\n 5. Click \"Connect\" to start updating the version.\n 6. When the progress bar reaches 100%, the upgrade is successful.\n Note: Make sure that the computer network is stable. Do not plug or unplug the devices. The keyboard will be unavailable during the upgrade. Just follow the prompts. Thank you for your cooperation.",
+    "upgradeTips":"Please exit to the home page and connect to wired mode to update.\n(Note: The receiver must be unplugged before upgrading!)",
+    "DialogPairTips":"Please operate the keyboard to enter pairing mode (switch to wireless mode first, press and hold the Fn+4 key combination for 3 seconds until the signal light blue flashes slowly), and click \"start pairing\" near the receiver or press the space bar on the keyboard",
+    "pageUpdateTips":"Detected updates in functionality or interface, click OK to clear cache and reload."
+  }
+}
