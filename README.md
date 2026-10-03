@@ -51,7 +51,7 @@ sudo udevadm control --reload-rules
 sudo udevadm trigger --subsystem-match=hidraw
 ```
 
-### Fn keys do not work, even when Fn is pressed in Ubuntu 24.04:
+**Fn keys do not work, even when Fn is pressed in Ubuntu 24.04:**
 
 ```bash
 echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode
