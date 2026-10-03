@@ -1,6 +1,6 @@
 <h1 align="center"> 
   <p>Lofree Control Hub Web Replica</p> 
-  <img src="link da capa A" width="30%"> 
+  <img src="https://github.com/user-attachments/assets/0af50011-ca26-477f-a15b-2f115750929c" width="75%"> 
 </h1> 
 
 <p> 
