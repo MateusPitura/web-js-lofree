@@ -27,7 +27,7 @@ The original site files were downloaded manually, with only minor changes made t
 
 ## How to Run
 
-Visit [mateuspitura.github.io/web-js-lofree](https://mateuspitura.github.io/web-js-lofree/) and connect your keyboard over USB or 2.4GHz receiver
+Visit [lofree.mateuspitura.com/](https://lofree.mateuspitura.com/) and connect your keyboard over USB or 2.4GHz receiver
 
 ### Troubleshooting
 
