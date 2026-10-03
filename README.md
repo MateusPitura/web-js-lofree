@@ -43,7 +43,8 @@ Add this:
 KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="05ac", ATTRS{idProduct}=="024f", TAG+="uaccess"
 ```
 
-Obs.: the idVendor and idProduct can vary
+> [!WARNING]
+> The idVendor and idProduct can vary
 
 ```bash
 sudo udevadm control --reload-rules
