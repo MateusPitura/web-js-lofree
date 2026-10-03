@@ -1,6 +1,6 @@
 <h1 align="center"> 
   <p>Lofree Control Hub Web Replica</p> 
-  <img src="link da capa A" width="30%"> 
+  <img src="https://github.com/user-attachments/assets/0af50011-ca26-477f-a15b-2f115750929c" width="75%"> 
 </h1> 
 
 <p> 
@@ -43,14 +43,15 @@ Add this:
 KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="05ac", ATTRS{idProduct}=="024f", TAG+="uaccess"
 ```
 
-Obs.: the idVendor and idProduct can vary
+> [!WARNING]
+> The idVendor and idProduct can vary
 
 ```bash
 sudo udevadm control --reload-rules
 sudo udevadm trigger --subsystem-match=hidraw
 ```
 
-### Fn keys do not work, even when Fn is pressed in Ubuntu 24.04:
+**Fn keys do not work, even when Fn is pressed in Ubuntu 24.04:**
 
 ```bash
 echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode
