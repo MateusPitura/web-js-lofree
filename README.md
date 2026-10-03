@@ -10,7 +10,7 @@
 
 ## Description
 
-This is a independent replica of the Lofree Control Hub Web, a web application that allows users to control their Lofree devices. The [original site](https://www.lofree.tech/keyboard) is hosted in Hong Kong, which can result in slow loading times for users in other regions, and it may become unavailable if the maintainer takes it down in the future. This project aims to provide a faster-loading alternative and serve as a backup of the original site
+This is a independent replica of the Lofree Control Hub Web, a web application that allows users to control their Lofree devices. The [original site](https://url.mateuspitura.com?q=lofree.tech/keyboard) is hosted in Hong Kong, which can result in slow loading times for users in other regions, and it may become unavailable if the maintainer takes it down in the future. This project aims to provide a faster-loading alternative and serve as a backup of the original site
 
 The original site files were downloaded manually, with only minor changes made to ensure they work, such as removing redirects to the original domain and enabling test mode. The main JavaScript code was downloaded in minified form and formatted using Prettier. The site was tested with a Lofree Flow Lite 84, so some assets may not be available with other devices
 
@@ -27,7 +27,7 @@ The original site files were downloaded manually, with only minor changes made t
 
 ## How to Run
 
-Visit [lofree.mateuspitura.com/](https://lofree.mateuspitura.com/) and connect your keyboard over USB or 2.4GHz receiver
+Visit [https://lofree.mateuspitura.com/](https://url.mateuspitura.com?q=lofree.mateuspitura.com) and connect your keyboard over USB or 2.4GHz receiver
 
 ### Troubleshooting
 
