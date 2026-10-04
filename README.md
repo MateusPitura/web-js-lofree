@@ -27,7 +27,7 @@ The original site files were downloaded manually, with only minor changes made t
 
 ## How to Run
 
-Visit [https://lofree.mateuspitura.com/](https://url.mateuspitura.com?q=lofree.mateuspitura.com) and connect your keyboard over USB or 2.4GHz receiver
+Visit [https://lofree.mateuspitura.com/](https://url.mateuspitura.com?q=lofree.mateuspitura.com) and connect your keyboard over cable or 2.4GHz receiver
 
 ### Troubleshooting
 
