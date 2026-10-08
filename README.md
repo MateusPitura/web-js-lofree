@@ -58,6 +58,13 @@ echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode
 echo "options hid_apple fnmode=2" | sudo tee /etc/modprobe.d/20_lofree_fn_mode_fix.conf
 ```
 
+**Layout in without dead key and with compose key in Ubuntu 24.04:**
+
+```bash
+gsettings set org.gnome.desktop.input-sources sources "[('xkb','us')]"
+gsettings set org.gnome.desktop.input-sources xkb-options "['compose:rctrl']"
+```
+
 ## Technologies Used
 
 <!--Link for badges: https://github.com/Ileriayo/markdown-badges -->
